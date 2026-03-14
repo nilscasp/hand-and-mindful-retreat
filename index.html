@@ -679,6 +679,92 @@ strong { color: var(--text-heading); font-weight: 500; }
   color: var(--text-dark);
   margin-bottom: 0;
 }
+/* ===== PRICING ===== */
+.pricing-section {
+  background: linear-gradient(150deg, var(--lavender-mist) 0%, var(--cream-glow) 60%, var(--rose-warm) 100%);
+  text-align: center;
+}
+.pricing-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 580px;
+  margin: 2.5rem auto 0;
+}
+.price-card {
+  background: rgba(255,252,255,0.9);
+  border: 1px solid rgba(184,148,62,0.22);
+  padding: 2.5rem 1.8rem;
+  position: relative;
+  text-align: center;
+}
+.price-card.featured {
+  border-color: var(--gold-deep);
+  box-shadow: 0 8px 32px rgba(184,148,62,0.12);
+}
+.price-card.featured::before {
+  content: 'Early Bird';
+  position: absolute;
+  top: -1px; left: 50%;
+  transform: translateX(-50%);
+  background: var(--gold-deep);
+  color: var(--text-light);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.9rem;
+}
+.price-amount {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 3.2rem;
+  font-weight: 300;
+  color: var(--text-heading);
+  line-height: 1;
+  margin: 1rem 0 0.4rem;
+}
+.price-type {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 0.6rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  display: block;
+  margin-bottom: 0.6rem;
+}
+.price-note {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 0.78rem;
+  color: var(--text-dark);
+  opacity: 0.7;
+  line-height: 1.5;
+}
+.accommodation-box {
+  max-width: 580px;
+  margin: 2.5rem auto 0;
+  background: rgba(240,230,244,0.45);
+  border: 1px solid rgba(201,168,216,0.35);
+  padding: 2rem 2.5rem;
+  text-align: left;
+}
+.accommodation-box p { font-size: 0.95rem; margin-bottom: 0.8rem; }
+.accommodation-box p:last-child { margin-bottom: 0; }
+.budget-note {
+  max-width: 520px;
+  margin: 2rem auto 0;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+  opacity: 0.8;
+  line-height: 1.7;
+  background: rgba(255,252,255,0.6);
+  border-left: 2px solid var(--gold-light);
+  padding: 1rem 1.5rem;
+  text-align: left;
+}
 /* ===== REGISTRATION FORM ===== */
 .register-section {
   background:
@@ -985,6 +1071,9 @@ footer::before {
   .info-row { flex-direction: column; gap: 0.3rem; }
   .result-words { gap: 1rem; }
   .goals-box { padding: 1.8rem 1.2rem; }
+  .pricing-grid { grid-template-columns: 1fr; max-width: 340px; }
+  .accommodation-box { padding: 1.5rem 1.2rem; }
+  .budget-note { padding: 0.8rem 1.2rem; }
 }
 
 @media (max-width: 480px) {
@@ -1281,18 +1370,61 @@ footer::before {
         <p class="info-value">Stark begrenzt</p>
       </div>
       <div class="info-row">
-        <span class="info-label">Verpflegung</span>
-        <p class="info-value">Biologische Vollwertkost inklusive</p>
+        <span class="info-label">Retreat-Gebühr</span>
+        <p class="info-value">Early Bird EUR 344.– · Regulär EUR 377.– (exkl. Unterkunft &amp; Verpflegung)</p>
       </div>
       <div class="info-row">
-        <span class="info-label">Unterkunft</span>
-        <p class="info-value">Verschiedene Zimmerkategorien (EZ, DZ, geteiltes Bad) — Details nach Anmeldung</p>
+        <span class="info-label">Unterkunft &amp; Vollpension</span>
+        <p class="info-value">EUR 318.– bis EUR 384.– je nach Zimmerkategorie · Zahlung direkt vor Ort</p>
       </div>
       <div class="info-row">
         <span class="info-label">Anreise</span>
         <p class="info-value">ca. 45 Min. von München mit Auto · Zuganreise möglich (Grafing Bhf. + Sammeltaxi)</p>
       </div>
     </div>
+  </div>
+</section>
+<div class="gold-divider" aria-hidden="true"></div>
+<!-- ===== PRICING ===== -->
+<section class="pricing-section" id="kosten">
+  <div class="section-inner">
+    <div class="fade-in">
+      <p class="section-label">Investition</p>
+      <h2>Kosten &amp; Konditionen</h2>
+      <div class="gold-divider-short"></div>
+      <p style="font-style:italic;opacity:0.85;max-width:500px;margin:0 auto;">Donnerstagnachmittag bis Sonntagnachmittag · 4 Tage</p>
+    </div>
+
+    <p class="section-label" style="margin-top:2.5rem;margin-bottom:0.5rem;">Kreativ-Pauschale · Retreat-Programm</p>
+    <div class="pricing-grid fade-in fade-in-delay-1">
+      <div class="price-card featured">
+        <span class="price-type">Early Bird</span>
+        <div class="price-amount">344 €</div>
+        <p class="price-note">Bis Ende 2025</p>
+        <p class="price-note" style="margin-top:0.6rem;border-top:1px solid rgba(184,148,62,0.15);padding-top:0.6rem;">* 2025-Alumni erhalten den Early-Bird-Tarif auch 2026 — als persönliches Dankeschön.</p>
+      </div>
+      <div class="price-card">
+        <span class="price-type">Regulär</span>
+        <div class="price-amount">377 €</div>
+        <p class="price-note">Ab 2026</p>
+      </div>
+    </div>
+
+    <div class="budget-note fade-in fade-in-delay-2">
+      Wenn dein Budget geringer ist, du aber unbedingt dabei sein möchtest — wende dich vertrauensvoll an uns. Wir finden gemeinsam einen Weg.
+    </div>
+
+    <div class="accommodation-box fade-in fade-in-delay-2">
+      <p class="section-label" style="margin-bottom:0.8rem;">Unterkunft &amp; Vollpension · separat</p>
+      <p>Die Pauschale für Unterkunft und Vollpension (biologische Vollwertkost) variiert je nach Zimmerkategorie zwischen <strong>EUR 318.– und EUR 384.–</strong> für die gesamte Dauer.</p>
+      <p>Es gibt Einzelzimmer, Zweibettzimmer sowie Zimmer mit geteiltem Bad. Letztere verfügen über ein eigenes Waschbecken; Dusche und Toilette teilen jeweils zwei benachbarte Zimmer.</p>
+      <p>Die Zimmerbuchung läuft über uns — die Zahlung erfolgt direkt beim Check-Out vor Ort im Seminarhaus.</p>
+      <p><a href="https://www.holzmannstett.de" target="_blank" rel="noopener" class="location-link">Zimmerkategorien auf holzmannstett.de →</a></p>
+    </div>
+
+    <p class="fade-in" style="font-family:'Lora',serif;font-size:0.78rem;opacity:0.6;margin-top:1.5rem;font-style:italic;">
+      Mit der Anmeldung gelten die <a href="agb.html" style="color:var(--gold-deep);border-bottom:1px solid rgba(184,148,62,0.3);">AGB des Hand &amp; Mindful Retreat</a> (Kreativ-Pauschale) sowie die AGB des Seminarhauses Holzmannstett (Zimmerbuchung).
+    </p>
   </div>
 </section>
 <div class="gold-divider" aria-hidden="true"></div>
@@ -1428,7 +1560,7 @@ footer::before {
           <span class="faq-icon" aria-hidden="true">+</span>
         </button>
         <div class="faq-answer" role="region">
-          <p class="faq-answer-inner">Das Retreat-Programm (alle Workshops, Sessions und Praktiken). Unterkunft und Verpflegung werden separat vor Ort bezahlt.</p>
+          <p class="faq-answer-inner">Die Kreativ-Pauschale (EUR 344.– Early Bird / EUR 377.– regulär) umfasst das vollständige Retreat-Programm — alle Workshops, Sessions und Praktiken über 4 Tage. Unterkunft und Vollpension (EUR 318.– bis EUR 384.– je nach Zimmer) werden separat und direkt vor Ort beim Seminarhaus bezahlt.</p>
         </div>
       </div>
       <div class="faq-item">
