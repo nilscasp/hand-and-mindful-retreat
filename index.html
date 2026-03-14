@@ -206,7 +206,7 @@ nav {
 .hero-quote {
   font-family: 'Cormorant Garamond', serif;
   font-style: italic;
-  font-size: 0.95rem;
+  font-size: 1.25rem;
   color: var(--lavender-deep);
   letter-spacing: 0.03em;
   line-height: 1.6;
@@ -946,6 +946,9 @@ footer::before {
 .fade-in-delay-3 { transition-delay: 0.3s; }
 .fade-in-delay-4 { transition-delay: 0.4s; }
 /* ===== RESPONSIVE ===== */
+@media (min-width: 769px) {
+  .hero-quote { font-size: 1.45rem; }
+}
 @media (max-width: 768px) {
   nav { padding: 0.8rem 1.2rem; }
   .nav-links { display: none; }
