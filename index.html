@@ -591,23 +591,21 @@ strong { color: var(--text-heading); font-weight: 500; }
 }
 .location-images {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.2rem;
   margin: 2.5rem 0;
 }
-.img-placeholder {
-  background: linear-gradient(135deg, var(--lavender-light), var(--rose-blush));
+.location-images img {
+  width: 100%;
   aspect-ratio: 4/3;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
   border: 1px solid rgba(184,148,62,0.2);
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 0.6rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--lavender-deep);
-  opacity: 0.7;
+  display: block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.location-images img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 32px rgba(155,126,181,0.2);
 }
 .location-link {
   font-family: 'Josefin Sans', sans-serif;
@@ -980,6 +978,7 @@ footer::before {
   .practices-grid { grid-template-columns: repeat(2, 1fr); }
   .team-grid { grid-template-columns: 1fr; gap: 3rem; }
   .location-images { grid-template-columns: 1fr; }
+  .location-images img { aspect-ratio: 16/9; }
   .form-row { grid-template-columns: 1fr; }
   .form-card { padding: 2rem 1.2rem; }
   .info-card { padding: 2rem 1.2rem; }
@@ -1240,9 +1239,10 @@ footer::before {
       <p><a href="https://www.holzmannstett.de" target="_blank" rel="noopener" class="location-link">holzmannstett.de →</a></p>
     </div>
     <div class="location-images fade-in fade-in-delay-2">
-      <div class="img-placeholder" role="img" aria-label="Bild Seminarhaus Holzmannstett">Bild Seminarhaus</div>
-      <div class="img-placeholder" role="img" aria-label="Bild Seminarhaus Holzmannstett Innenraum">Bild Seminarhaus</div>
-      <div class="img-placeholder" role="img" aria-label="Bild Seminarhaus Holzmannstett Außengelände">Bild Seminarhaus</div>
+      <img src="bilder/seminarraum.png" alt="Seminarraum Holzmannstett mit Meditationskissen und Holzbalken">
+      <img src="bilder/aussen.png" alt="Seminarhaus Holzmannstett von außen mit Alpenblick">
+      <img src="bilder/garten.png" alt="Garten und Terrasse des Seminarhauses Holzmannstett">
+      <img src="bilder/zimmer.png" alt="Helles Zimmer im Seminarhaus Holzmannstett">
     </div>
   </div>
 </section>
