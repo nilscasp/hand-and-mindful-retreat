@@ -1482,23 +1482,36 @@ footer::before {
             <label for="erfahrung">Erfahrung mit Handpan <span class="req" aria-hidden="true">*</span></label>
             <select id="erfahrung" name="erfahrung" required>
               <option value="" disabled selected>Bitte wählen …</option>
-              <option value="Anfänger">Anfänger</option>
-              <option value="Fortgeschritten">Fortgeschritten</option>
-              <option value="Erfahren">Erfahren</option>
+              <option value="Neuling">Neuling — Ich habe noch keine oder kaum Erfahrung</option>
+              <option value="Fortgeschrittener Anfänger">Fortgeschrittener Anfänger — Erste Grundlagen vorhanden</option>
+              <option value="Kompetent">Kompetent — Ich spiele regelmäßig, kenne meine Skala</option>
+              <option value="Gewandt">Gewandt — Ich spiele sicher, entwickle meinen Stil</option>
+              <option value="Experte">Experte — Tiefe Erfahrung, unterrichte oder trete auf</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="zimmer">Zimmerwunsch</label>
-            <select id="zimmer" name="zimmer">
-              <option value="Keine Präferenz" selected>Keine Präferenz</option>
-              <option value="Einzelzimmer">Einzelzimmer</option>
-              <option value="Doppelzimmer">Doppelzimmer</option>
+            <label for="zimmer">Zimmerwunsch <span class="req" aria-hidden="true">*</span></label>
+            <select id="zimmer" name="zimmer" required onchange="toggleMitbewohner(this.value)">
+              <option value="" disabled selected>Bitte wählen …</option>
+              <option value="Einzelzimmer">Einzelzimmer (eigenes Bad)</option>
+              <option value="Zweibettzimmer">Zweibettzimmer (eigenes Bad, geteilt)</option>
+              <option value="Zimmer mit geteiltem Bad">Zimmer mit geteiltem Bad (eigenes Waschbecken)</option>
             </select>
           </div>
+        </div>
+        <div class="form-group" id="mitbewohnerGroup" style="display:none;">
+          <label for="mitbewohner">Zimmerperson <span style="font-weight:300;opacity:0.6;text-transform:none;letter-spacing:0;">(optional — falls bereits bekannt)</span></label>
+          <input type="text" id="mitbewohner" name="mitbewohner" placeholder="Name der Person, mit der du das Zimmer teilen möchtest">
         </div>
         <div class="form-group">
           <label for="nachricht">Was bewegt dich gerade? <span style="font-weight:300;opacity:0.6;text-transform:none;letter-spacing:0;">(optional)</span></label>
           <textarea id="nachricht" name="nachricht" rows="4" placeholder="Teile uns gerne mit, was dich zu diesem Retreat führt …"></textarea>
+        </div>
+        <div class="checkbox-group">
+          <input type="checkbox" id="agb" name="agb" required>
+          <label for="agb" style="display:inline;font-family:'Lora',serif;font-size:0.82rem;color:var(--text-dark);opacity:0.8;line-height:1.5;text-transform:none;letter-spacing:0;font-weight:400;">
+            Ich habe die <a href="agb.html" target="_blank" style="color:var(--gold-deep);border-bottom:1px solid rgba(184,148,62,0.3);">AGB</a> gelesen und akzeptiere sie. <span class="req" aria-hidden="true">*</span>
+          </label>
         </div>
         <div class="checkbox-group">
           <input type="checkbox" id="datenschutz" name="datenschutz" required>
@@ -1595,6 +1608,11 @@ footer::before {
 </footer>
 <!-- ===== JAVASCRIPT ===== -->
 <script>
+// --- Zimmer: Mitbewohner-Feld ---
+function toggleMitbewohner(val) {
+  const g = document.getElementById('mitbewohnerGroup');
+  g.style.display = val === 'Zweibettzimmer' ? 'block' : 'none';
+}
 // --- Mobile menu ---
 function toggleMenu() {
   const nav = document.getElementById('navLinks');
