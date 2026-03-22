@@ -336,6 +336,9 @@ body { background: #1E1228; }
 <audio id="bgMusic" loop preload="none">
   <source src="musik.mp3" type="audio/mpeg">
 </audio>
+<audio id="eingangSound" preload="auto">
+  <source src="eingang.mp3" type="audio/mpeg">
+</audio>
 
 <!-- ============================================================
      RETREAT CONTENT (iframe, preloads in background)
@@ -582,6 +585,9 @@ let isOpening = false;
 function openGateway() {
   if (isOpening) return;
   isOpening = true;
+
+  const eingangSound = document.getElementById('eingangSound');
+  if (eingangSound) { eingangSound.currentTime = 0; eingangSound.play().catch(() => {}); }
 
   const wrap    = document.getElementById('gwRingsWrap');
   const gateway = document.getElementById('gateway');
