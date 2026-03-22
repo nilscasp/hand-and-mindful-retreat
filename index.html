@@ -566,15 +566,18 @@ function startMusic() {
 
 // Music toggle
 const toggle = document.getElementById('musicToggle');
+const eingangSound = document.getElementById('eingangSound');
 toggle.addEventListener('click', () => {
-  if (music.paused) {
+  const isMuted = !music.paused || (eingangSound && !eingangSound.paused);
+  if (isMuted) {
+    music.pause();
+    if (eingangSound) eingangSound.pause();
+    toggle.classList.add('muted');
+    toggle.setAttribute('aria-label', 'Musik fortsetzen');
+  } else {
     music.play().catch(() => {});
     toggle.classList.remove('muted');
     toggle.setAttribute('aria-label', 'Musik pausieren');
-  } else {
-    music.pause();
-    toggle.classList.add('muted');
-    toggle.setAttribute('aria-label', 'Musik fortsetzen');
   }
 });
 
