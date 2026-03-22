@@ -47,22 +47,23 @@ body { background: #1E1228; }
   bottom: 1.4rem;
   right: 1.4rem;
   z-index: 500;
-  background: rgba(255,248,240,0.08);
-  border: 1px solid rgba(184,148,62,0.3);
+  background: rgba(184,148,62,0.15);
+  border: 1.5px solid rgba(184,148,62,0.6);
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
-  transition: opacity 0.6s ease, background 0.2s, border-color 0.2s;
-  color: rgba(232,213,160,0.7);
+  transition: opacity 0.6s ease, background 0.2s, border-color 0.2s, box-shadow 0.2s;
+  color: #E8D5A0;
+  box-shadow: 0 0 12px rgba(184,148,62,0.2);
 }
-#musicToggle.visible { opacity: 0.45; pointer-events: auto; }
-#musicToggle:hover { opacity: 1 !important; background: rgba(184,148,62,0.1); border-color: rgba(184,148,62,0.6); color: #E8D5A0; }
+#musicToggle.visible { opacity: 0.85; pointer-events: auto; }
+#musicToggle:hover { opacity: 1 !important; background: rgba(184,148,62,0.25); border-color: #D4AF5A; box-shadow: 0 0 20px rgba(184,148,62,0.4); }
 #musicToggle svg { display: block; }
 #musicToggle .icon-on, #musicToggle .icon-off { position: absolute; transition: opacity 0.2s; }
 #musicToggle .icon-off { opacity: 0; }
@@ -355,14 +356,14 @@ body { background: #1E1228; }
      ============================================================ -->
 <button id="musicToggle" aria-label="Musik pausieren oder fortsetzen" title="Musik">
   <!-- Speaker ON -->
-  <svg class="icon-on" width="15" height="15" viewBox="0 0 24 24" fill="none"
+  <svg class="icon-on" width="20" height="20" viewBox="0 0 24 24" fill="none"
        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
     <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
     <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
     <path d="M19.07 4.93a10 10 0 0 1 0 14.14" stroke-opacity="0.5"/>
   </svg>
   <!-- Speaker MUTED -->
-  <svg class="icon-off" width="15" height="15" viewBox="0 0 24 24" fill="none"
+  <svg class="icon-off" width="20" height="20" viewBox="0 0 24 24" fill="none"
        stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
     <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
     <line x1="23" y1="9" x2="17" y2="15"/>
