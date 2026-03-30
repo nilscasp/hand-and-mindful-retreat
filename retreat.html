@@ -1747,6 +1747,43 @@ footer::before {
           <textarea id="nachricht" name="nachricht" rows="4" placeholder="Teile uns gerne mit, was dich zu diesem Retreat führt …"></textarea>
         </div>
         <div class="checkbox-group">
+          <input type="checkbox" id="rechnungGleich" name="rechnungGleich" checked onchange="toggleRechnungsadresse(this.checked)">
+          <label for="rechnungGleich" style="display:inline;font-family:'Jost',serif;font-size:0.82rem;color:var(--text-dark);opacity:0.8;line-height:1.5;text-transform:none;letter-spacing:0;font-weight:400;">
+            Die oben eingetragenen Daten sind auch meine Rechnungsdaten.
+          </label>
+        </div>
+        <div id="rechnungsGroup" style="display:none;">
+          <p style="font-family:'Jost',serif;font-size:0.78rem;letter-spacing:0.12em;text-transform:uppercase;color:var(--gold-deep);margin:1.2rem 0 0.8rem;font-weight:600;">Rechnungsanschrift</p>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="rechVorname">Vorname <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="rechVorname" name="rechnung_vorname" autocomplete="billing given-name" placeholder="Vorname">
+            </div>
+            <div class="form-group">
+              <label for="rechNachname">Nachname <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="rechNachname" name="rechnung_nachname" autocomplete="billing family-name" placeholder="Nachname">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="rechStrasse">Straße &amp; Hausnummer <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="rechStrasse" name="rechnung_strasse" autocomplete="billing street-address" placeholder="Musterstraße 12">
+          </div>
+          <div class="form-row">
+            <div class="form-group" style="flex:0 0 140px;">
+              <label for="rechPlz">PLZ <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="rechPlz" name="rechnung_plz" autocomplete="billing postal-code" placeholder="12345" maxlength="10">
+            </div>
+            <div class="form-group">
+              <label for="rechOrt">Ort <span class="req" aria-hidden="true">*</span></label>
+              <input type="text" id="rechOrt" name="rechnung_ort" autocomplete="billing address-level2" placeholder="Stadt">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="rechLand">Land <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="rechLand" name="rechnung_land" autocomplete="billing country-name" placeholder="Deutschland" value="Deutschland">
+          </div>
+        </div>
+        <div class="checkbox-group">
           <input type="checkbox" id="agb" name="agb" required>
           <label for="agb" style="display:inline;font-family:'Jost',serif;font-size:0.82rem;color:var(--text-dark);opacity:0.8;line-height:1.5;text-transform:none;letter-spacing:0;font-weight:400;">
             Ich habe die <a href="agb.html" target="_blank" style="color:var(--gold-deep);border-bottom:1px solid rgba(184,148,62,0.3);">AGB</a> gelesen und akzeptiere sie. <span class="req" aria-hidden="true">*</span>
@@ -1883,10 +1920,18 @@ footer::before {
 </footer>
 <!-- ===== JAVASCRIPT ===== -->
 <script>
-// --- Zimmer: Mitbewohner-Feld ---
+/// --- Zimmer: Mitbewohner-Feld ---
 function toggleMitbewohner(val) {
   const g = document.getElementById('mitbewohnerGroup');
   g.style.display = val === 'Zweibettzimmer' ? 'block' : 'none';
+}
+// --- Rechnungsanschrift ---
+function toggleRechnungsadresse(checked) {
+  const g = document.getElementById('rechnungsGroup');
+  g.style.display = checked ? 'none' : 'block';
+  g.querySelectorAll('input').forEach(function(el) {
+    el.required = !checked;
+  });
 }
 // --- Mobile menu ---
 function toggleMenu() {
