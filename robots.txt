@@ -2,6 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /impressum.html
 Disallow: /datenschutz.html
-Disallow: /agb.html
+Disallow: /_archive/
 
 Sitemap: https://hand-mindful.de/sitemap.xml

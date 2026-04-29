@@ -1,0 +1,173 @@
+/* ============================================================
+   PILLAR — Layout for Pillar Pages (Homepage, /lernen/, /muenchen-online/)
+   ============================================================ */
+
+.pillar-hero {
+  position: relative;
+  padding: var(--space-6) 0 var(--space-5);
+  text-align: center;
+  background:
+    radial-gradient(ellipse 80% 60% at 50% 30%, rgba(184, 148, 62, 0.08) 0%, transparent 70%),
+    linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-gradient-end) 100%);
+}
+
+.pillar-hero-eyebrow {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin-bottom: var(--space-3);
+}
+
+.pillar-hero h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2.4rem, 6.5vw, 4rem);
+  line-height: 1.15;
+  max-width: 18ch;
+  margin: 0 auto var(--space-3);
+  letter-spacing: -0.005em;
+}
+
+.pillar-hero h1 em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.pillar-hero-subline {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.1rem, 2.4vw, 1.4rem);
+  line-height: 1.5;
+  color: var(--text-muted);
+  max-width: 38ch;
+  margin: 0 auto;
+}
+
+.pillar-hero-divider {
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: var(--gold-deep);
+  margin: var(--space-4) auto 0;
+  opacity: 0.6;
+}
+
+/* Pillar body — long-form content */
+.pillar-body {
+  padding: var(--space-5) 0;
+}
+
+.pillar-body p {
+  font-family: var(--sans);
+  font-weight: 300;
+  font-size: 1.08rem;
+  line-height: 1.8;
+  color: var(--text-warm);
+  margin-bottom: var(--space-3);
+}
+
+.pillar-body .lead {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.2rem, 2.4vw, 1.45rem);
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--gold-light);
+  margin-bottom: var(--space-4);
+}
+
+.pillar-body h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  font-weight: 400;
+  margin-top: var(--space-6);
+  margin-bottom: var(--space-3);
+  color: var(--text-warm);
+}
+
+.pillar-body h2 em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.pillar-body h3 {
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-2);
+  color: var(--gold-light);
+}
+
+.pillar-body a:not(.btn):not(.card) {
+  color: var(--gold-light);
+  border-bottom: 1px solid rgba(184, 148, 62, 0.3);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.pillar-body a:not(.btn):not(.card):hover {
+  color: var(--gold-mid);
+  border-bottom-color: var(--gold-mid);
+}
+
+/* Cluster overview section */
+.cluster-overview {
+  padding: var(--space-5) 0 var(--space-6);
+  background: linear-gradient(180deg, transparent 0%, rgba(155, 126, 181, 0.03) 100%);
+}
+
+.cluster-overview-header {
+  text-align: center;
+  margin-bottom: var(--space-4);
+}
+
+.cluster-overview-header .eyebrow {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin-bottom: var(--space-1);
+}
+
+.cluster-overview-header h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3.8vw, 2.2rem);
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Pillar CTA — final block before footer */
+.pillar-cta {
+  text-align: center;
+  padding: var(--space-6) 0;
+  background: radial-gradient(ellipse 60% 80% at 50% 50%, rgba(184, 148, 62, 0.08) 0%, transparent 70%);
+}
+
+.pillar-cta h2 {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 300;
+  font-size: clamp(1.7rem, 4vw, 2.4rem);
+  max-width: 24ch;
+  margin: 0 auto var(--space-3);
+  color: var(--gold-light);
+}
+
+.pillar-cta p {
+  font-family: var(--sans);
+  color: var(--text-muted);
+  max-width: 42ch;
+  margin: 0 auto var(--space-4);
+}
+
+.pillar-cta-actions {
+  display: inline-flex;
+  gap: var(--space-2);
+  flex-wrap: wrap;
+  justify-content: center;
+}

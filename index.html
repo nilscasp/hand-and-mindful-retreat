@@ -3,88 +3,95 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hand &amp; Mindful Retreat 2026 | Handpan · Yoga · Bewusstsein · 30. Juli – 2. August bei München</title>
-<meta name="description" content="4-tägiges Handpan-Retreat im Seminarhaus Holzmannstett bei München. Mit Bianca Sánchez &amp; Nils Caspar. Yoga, Embodiment, Handpan-Praxis. 30. Juli – 2. August 2026. Nur 10 Plätze.">
+
+<title>Handpan & Achtsamkeit — Der meditative Weg zum eigenen Klang | Hand & Mindful</title>
+<meta name="description" content="Handpan als Tor zu Präsenz und Achtsamkeit. Was passiert, wenn du nicht spielst, um zu beeindrucken — sondern um da zu sein. Ein Weg jenseits der Patterns.">
+<meta name="author" content="Nils Caspar">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://hand-mindful.de/">
+
+<!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://hand-mindful.de/">
-<meta property="og:title" content="Hand &amp; Mindful Retreat 2026 — Handpan · Yoga · Bewusstsein">
-<meta property="og:description" content="4-tägiges Handpan-Retreat bei München. Yoga, Embodiment, Handpan-Praxis. 30. Juli – 2. August 2026. Nur 10 Plätze.">
+<meta property="og:title" content="Handpan & Achtsamkeit — Der meditative Weg zum eigenen Klang">
+<meta property="og:description" content="Handpan als Tor zu Präsenz und Achtsamkeit. Ein Weg jenseits der Patterns.">
 <meta property="og:locale" content="de_DE">
+<meta property="og:site_name" content="Hand & Mindful">
+<meta property="og:image" content="https://hand-mindful.de/Bilder/nils-portrait.jpg">
+<meta property="og:image:alt" content="Hand & Mindful — Handpan & Achtsamkeit">
+
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Hand &amp; Mindful Retreat 2026 — Handpan · Yoga · Bewusstsein">
-<meta name="twitter:description" content="4-tägiges Handpan-Retreat bei München. 30. Juli – 2. August 2026. Nur 10 Plätze.">
-<meta name="twitter:image" content="https://hand-mindful.de/bilder/seminarraum.png">
+<meta name="twitter:title" content="Handpan & Achtsamkeit — Der meditative Weg zum eigenen Klang">
+<meta name="twitter:description" content="Handpan als Tor zu Präsenz und Achtsamkeit.">
+<meta name="twitter:image" content="https://hand-mindful.de/Bilder/nils-portrait.jpg">
 
-<!-- OG Image -->
-<meta property="og:image" content="https://hand-mindful.de/bilder/seminarraum.png">
-<meta property="og:image:alt" content="Seminarhaus Holzmannstett — Hand &amp; Mindful Retreat 2026">
-
-<!-- Theme Color -->
-<meta name="theme-color" content="#0A0E14">
+<!-- Theme & icons -->
+<meta name="theme-color" content="#1E1228">
 
 <!-- Preload key font -->
 <link rel="preload" href="fonts/cormorant-garamond-400.woff2" as="font" type="font/woff2" crossorigin>
 
+<!-- Stylesheets -->
 <link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/pillar.css">
+
+<!-- Structured Data: Article -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Handpan & Achtsamkeit — Der meditative Weg zum eigenen Klang",
+  "description": "Handpan als Tor zu Präsenz und Achtsamkeit. Ein Weg jenseits der Patterns.",
+  "inLanguage": "de",
+  "url": "https://hand-mindful.de/",
+  "image": "https://hand-mindful.de/Bilder/nils-portrait.jpg",
+  "datePublished": "2026-04-29",
+  "dateModified": "2026-04-29",
+  "author": {
+    "@type": "Person",
+    "name": "Nils Caspar",
+    "jobTitle": "Handpan-Lehrer, Gründer der Handpan Schule des Lebens",
+    "url": "https://handpan.schule",
+    "sameAs": [
+      "https://handpan.schule",
+      "https://www.nilscaspar.de",
+      "https://soundcloud.com/nilscaspar"
+    ]
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Hand & Mindful",
+    "url": "https://hand-mindful.de"
+  }
+}
+</script>
+
+<!-- Structured Data: BreadcrumbList -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Hand & Mindful",
+      "item": "https://hand-mindful.de/"
+    }
+  ]
+}
+</script>
+
 <style>
 /* ============================================================
-   RESET & BASE
+   GATEWAY — Inline CSS (page-specific, only loaded here)
    ============================================================ */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html, body { width: 100%; height: 100%; overflow: hidden; }
-body { background: #1E1228; }
+html, body { width: 100%; }
+body.gateway-active { overflow: hidden; height: 100%; }
 
-/* ============================================================
-   RETREAT IFRAME (underneath, preloads silently)
-   ============================================================ */
-#retreatFrame {
-  position: fixed;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  border: none;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 1.4s ease-out;
-}
-#retreatFrame.visible { opacity: 1; }
-
-/* ============================================================
-   MUSIC TOGGLE (appears after gateway opens)
-   ============================================================ */
-#musicToggle {
-  position: fixed;
-  bottom: 1.4rem;
-  right: 1.4rem;
-  z-index: 500;
-  background: rgba(184,148,62,0.15);
-  border: 1.5px solid rgba(184,148,62,0.6);
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.6s ease, background 0.2s, border-color 0.2s, box-shadow 0.2s;
-  color: #E8D5A0;
-  box-shadow: 0 0 12px rgba(184,148,62,0.2);
-}
-#musicToggle.visible { opacity: 0.85; pointer-events: auto; }
-#musicToggle:hover { opacity: 1 !important; background: rgba(184,148,62,0.25); border-color: #D4AF5A; box-shadow: 0 0 20px rgba(184,148,62,0.4); }
-#musicToggle svg { display: block; }
-#musicToggle .icon-on, #musicToggle .icon-off { position: absolute; transition: opacity 0.2s; }
-#musicToggle .icon-off { opacity: 0; }
-#musicToggle.muted .icon-on { opacity: 0; }
-#musicToggle.muted .icon-off { opacity: 1; }
-
-/* ============================================================
-   GATEWAY OVERLAY
-   ============================================================ */
 #gateway {
   position: fixed;
   inset: 0;
@@ -97,7 +104,6 @@ body { background: #1E1228; }
   transition: opacity 0.7s ease-out;
 }
 
-/* Dark gradient background */
 .gw-bg {
   position: absolute;
   inset: 0;
@@ -105,7 +111,6 @@ body { background: #1E1228; }
   transition: opacity 1s ease-out;
 }
 
-/* Central golden radial halo behind rings */
 .gw-halo {
   position: absolute;
   width: 500px;
@@ -121,7 +126,6 @@ body { background: #1E1228; }
   transition: opacity 1s ease-out;
 }
 
-/* Particle container */
 .gw-particles {
   position: absolute;
   inset: 0;
@@ -129,6 +133,7 @@ body { background: #1E1228; }
   overflow: hidden;
   transition: opacity 0.8s ease-out;
 }
+
 .particle {
   position: absolute;
   border-radius: 50%;
@@ -136,15 +141,13 @@ body { background: #1E1228; }
   animation: particleFloat linear infinite;
   pointer-events: none;
 }
+
 @keyframes particleFloat {
   0%   { transform: translateY(0) translateX(0) scale(1);   opacity: var(--op-start); }
   50%  { transform: translateY(-45vh) translateX(var(--drift)) scale(0.8); opacity: var(--op-mid); }
   100% { transform: translateY(-95vh) translateX(calc(var(--drift) * 1.5)) scale(0.4); opacity: 0; }
 }
 
-/* ============================================================
-   LAYOUT: eyebrow, rings, hint
-   ============================================================ */
 .gw-content {
   position: relative;
   z-index: 2;
@@ -165,9 +168,6 @@ body { background: #1E1228; }
   text-align: center;
 }
 
-/* ============================================================
-   RINGS WRAPPER — holds SVG + button centered
-   ============================================================ */
 .gw-rings-wrap {
   position: relative;
   display: flex;
@@ -176,14 +176,12 @@ body { background: #1E1228; }
   animation: breathe 6s ease-in-out infinite;
   will-change: transform;
 }
+
 @keyframes breathe {
   0%, 100% { transform: scale(1.000); }
-  50%       { transform: scale(1.018); }
+  50%      { transform: scale(1.018); }
 }
 
-/* ============================================================
-   SVG RINGS
-   ============================================================ */
 .gw-svg {
   display: block;
   width: min(72vw, 380px);
@@ -191,12 +189,12 @@ body { background: #1E1228; }
   overflow: visible;
 }
 
-/* All ring groups rotate around SVG origin (0,0) */
 .ring-group {
   transform-box: fill-box;
   transform-origin: center;
   will-change: transform;
 }
+
 @keyframes rotCW  { to { transform: rotate( 360deg); } }
 @keyframes rotCCW { to { transform: rotate(-360deg); } }
 
@@ -207,9 +205,6 @@ body { background: #1E1228; }
 .rg-5 { animation: rotCW  57s linear infinite; }
 .rg-6 { animation: rotCCW 34s linear infinite; }
 
-/* ============================================================
-   ENTER BUTTON
-   ============================================================ */
 .gw-btn-wrap {
   position: absolute;
   top: 50%;
@@ -235,6 +230,7 @@ body { background: #1E1228; }
   position: relative;
   outline: none;
 }
+
 .gw-btn::before {
   content: '';
   position: absolute;
@@ -243,11 +239,13 @@ body { background: #1E1228; }
   border: 1px solid rgba(184,148,62,0.2);
   transition: border-color 0.4s;
 }
+
 .gw-btn:hover {
   border-color: rgba(184,148,62,0.9);
   background: radial-gradient(circle, rgba(232,213,160,0.10) 0%, rgba(184,148,62,0.04) 60%, transparent 100%);
   box-shadow: 0 0 28px rgba(184,148,62,0.22), inset 0 0 18px rgba(184,148,62,0.06);
 }
+
 .gw-btn:hover::before { border-color: rgba(184,148,62,0.4); }
 .gw-btn:focus-visible { box-shadow: 0 0 0 2px rgba(184,148,62,0.5); }
 
@@ -263,21 +261,9 @@ body { background: #1E1228; }
   pointer-events: none;
   transition: color 0.3s;
 }
+
 .gw-btn:hover .gw-btn-label { color: rgba(232,213,160,1); }
 
-.gw-music-hint {
-  font-family: 'Jost', sans-serif;
-  font-size: 0.48rem;
-  font-weight: 300;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: rgba(184,148,62,0.38);
-  white-space: nowrap;
-}
-
-/* ============================================================
-   BOTTOM HINT
-   ============================================================ */
 .gw-hint {
   font-family: 'Jost', sans-serif;
   font-size: 0.5rem;
@@ -288,95 +274,103 @@ body { background: #1E1228; }
   text-align: center;
   animation: hintBlink 4s ease-in-out infinite;
 }
+
 @keyframes hintBlink {
   0%, 100% { opacity: 0.6; }
-  50%       { opacity: 1;   }
+  50%      { opacity: 1;   }
 }
 
-/* ============================================================
-   RING HOVER GLOW (when hovering enter button, parent glows)
-   ============================================================ */
 .gw-rings-wrap:hover .rg-glow {
   filter: drop-shadow(0 0 3px rgba(184,148,62,0.4));
 }
-.gw-rings-wrap:hover .gw-halo-inner {
-  opacity: 0.18;
-}
-.gw-halo-inner { transition: opacity 0.4s; }
 
-/* ============================================================
-   OPENING ANIMATION STATES
-   ============================================================ */
+/* Opening animation */
 .gw-rings-wrap.opening {
   animation: none;
   transition: transform 1.4s cubic-bezier(0.25, 0.46, 0.45, 0.94),
               opacity 1.1s ease-in 0.35s,
               filter 0.4s ease-out;
 }
+
 .gw-rings-wrap.pulse {
   transform: scale(1.07);
   filter: brightness(1.9) drop-shadow(0 0 12px rgba(184,148,62,0.5));
 }
+
 .gw-rings-wrap.expand {
   transform: scale(3.2);
   opacity: 0;
   filter: brightness(2.2) drop-shadow(0 0 24px rgba(184,148,62,0.6));
 }
+
 #gateway.fading {
   opacity: 0;
-  transition: opacity 0.7s ease-out 0.3s;
+  pointer-events: none;
 }
 
-/* ============================================================
-   MOBILE ADJUSTMENTS
-   ============================================================ */
 @media (max-width: 480px) {
   .gw-halo { width: 340px; height: 340px; }
   .gw-content { gap: 1.6rem; }
 }
+
 @media (max-height: 600px) {
   .gw-eyebrow { display: none; }
   .gw-hint    { display: none; }
   .gw-content { gap: 0.8rem; }
 }
+
+/* Music toggle */
+#musicToggle {
+  position: fixed;
+  bottom: 1.4rem;
+  right: 1.4rem;
+  z-index: 500;
+  background: rgba(184,148,62,0.15);
+  border: 1.5px solid rgba(184,148,62,0.6);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s ease, background 0.2s, border-color 0.2s, box-shadow 0.2s;
+  color: #E8D5A0;
+  box-shadow: 0 0 12px rgba(184,148,62,0.2);
+}
+
+#musicToggle.visible { opacity: 0.85; pointer-events: auto; }
+#musicToggle:hover { opacity: 1 !important; background: rgba(184,148,62,0.25); border-color: #D4AF5A; box-shadow: 0 0 20px rgba(184,148,62,0.4); }
+#musicToggle .icon-on, #musicToggle .icon-off { position: absolute; transition: opacity 0.2s; }
+#musicToggle .icon-off { opacity: 0; }
+#musicToggle.muted .icon-on { opacity: 0; }
+#musicToggle.muted .icon-off { opacity: 1; }
 </style>
 </head>
-<body>
+<body class="gateway-active">
 
-<!-- ============================================================
-     MUSIK: Ersetze 'musik.mp3' durch den Pfad zur Audiodatei
-     ============================================================ -->
+<a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+<!-- Music elements -->
 <audio id="bgMusic" loop preload="none">
-  <source src="musik.mp3" type="audio/mpeg">
+  <!-- musik.mp3 not provided yet — startMusic() catches the play() rejection silently -->
 </audio>
 <audio id="eingangSound" preload="auto">
   <source src="eingang.mp3" type="audio/mpeg">
 </audio>
 
-<!-- ============================================================
-     RETREAT CONTENT (iframe, preloads in background)
-     ============================================================ -->
-<iframe
-  id="retreatFrame"
-  src="retreat.html"
-  title="Hand & Mindful Retreat 2026 – Inhalt"
-  loading="eager"
-></iframe>
-
-<!-- ============================================================
-     MUSIK-TOGGLE (erscheint nach dem Öffnen)
-     ============================================================ -->
+<!-- Music toggle (visible after gateway opens) -->
 <button id="musicToggle" aria-label="Musik pausieren oder fortsetzen" title="Musik">
-  <!-- Speaker ON -->
   <svg class="icon-on" width="20" height="20" viewBox="0 0 24 24" fill="none"
-       stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+       stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
     <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
     <path d="M19.07 4.93a10 10 0 0 1 0 14.14" stroke-opacity="0.5"/>
   </svg>
-  <!-- Speaker MUTED -->
   <svg class="icon-off" width="20" height="20" viewBox="0 0 24 24" fill="none"
-       stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+       stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
     <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
     <line x1="23" y1="9" x2="17" y2="15"/>
     <line x1="17" y1="9" x2="23" y2="15"/>
@@ -384,52 +378,168 @@ body { background: #1E1228; }
 </button>
 
 <!-- ============================================================
-     GATEWAY OVERLAY
+     MAIN CONTENT — Pillar 1 (Achtsamkeit)
      ============================================================ -->
-<div id="gateway" role="dialog" aria-modal="true" aria-label="Willkommen – Tor zum Retreat">
+<main id="main">
 
-  <!-- Background -->
+  <header class="site-header">
+    <div class="container site-header-inner">
+      <a href="/" class="site-logo" aria-label="Hand & Mindful — Startseite">
+        <span class="site-logo-eyebrow">Hand &amp; Mindful</span>
+        Handpan &amp; Achtsamkeit
+      </a>
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <a href="/" aria-current="page">Achtsamkeit</a>
+        <a href="/lernen/">Lernweg</a>
+        <a href="/muenchen-online/">München &amp; Online</a>
+        <a href="/artikel/">Artikel</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="pillar-hero">
+    <div class="container-pillar">
+      <p class="pillar-hero-eyebrow">Handpan &amp; Achtsamkeit</p>
+      <h1>Der meditative Weg zum <em>eigenen Klang</em></h1>
+      <p class="pillar-hero-subline">Was passiert, wenn du nicht spielst, um zu beeindrucken — sondern um da zu sein.</p>
+      <span class="pillar-hero-divider" aria-hidden="true"></span>
+    </div>
+  </section>
+
+  <section class="pillar-body container-content">
+    <p class="lead">Die meisten Tutorials wollen dich schneller machen. Schneller spielen, mehr Patterns, weniger Fehler. Dieser Ort fragt etwas anderes: <em>Was, wenn die Handpan dich langsamer macht?</em></p>
+
+    <p>Es gibt einen Punkt, an dem das Instrument aufhört, ein Werkzeug zu sein — und anfängt, ein Spiegel zu werden. Ein Spiegel der eigenen Hektik, der eigenen Sehnsucht nach Beeindrucken, der Stille darunter. Genau dort beginnt etwas, das mit Üben im klassischen Sinn nichts mehr zu tun hat. Es beginnt eine Praxis.</p>
+
+    <p>Diese Seite versammelt, was sich auf diesem Weg sammelt: Erfahrungen, Anleitungen, Hintergründe. Geschrieben für alle, die nicht nur ein Instrument lernen wollen, sondern wissen wollen, was die Handpan ihnen über Präsenz lehrt. Und für alle, die schon spielen, aber spüren, dass da mehr ist, als die nächste Melodie.</p>
+
+    <p><a href="/lernen/">Wenn du wissen willst, wie ein bewusster Lernweg konkret aussieht →</a></p>
+  </section>
+
+  <section class="cluster-overview">
+    <div class="container">
+      <div class="cluster-overview-header">
+        <p class="eyebrow">Vier Wege tiefer</p>
+        <h2>Praxis &amp; Verstehen</h2>
+      </div>
+
+      <div class="card-grid">
+        <a href="/artikel/handpan-klangmeditation/" class="card">
+          <p class="card-eyebrow">Praxis</p>
+          <h3>Handpan-Klangmeditation</h3>
+          <p>Eine Anleitung für die Praxis zuhause — allein, mit Partner oder als Einschlafritual.</p>
+        </a>
+
+        <a href="/artikel/handpan-nervensystem/" class="card">
+          <p class="card-eyebrow">Hintergrund</p>
+          <h3>Wie der Klang das Nervensystem reguliert</h3>
+          <p>Was Frequenzverhältnisse, Entrainment und Polyvagal-Theorie über die Wirkung der Handpan erzählen.</p>
+        </a>
+
+        <a href="/artikel/handpan-yoga/" class="card">
+          <p class="card-eyebrow">Verbindung</p>
+          <h3>Handpan &amp; Yoga</h3>
+          <p>Klang als Embodiment-Praxis — wo sich Yin Yoga und meditatives Spiel begegnen.</p>
+        </a>
+
+        <a href="/artikel/handpan-morgenpraxis/" class="card">
+          <p class="card-eyebrow">Alltag</p>
+          <h3>Eine 10-Minuten-Morgenpraxis</h3>
+          <p>Fünf Schritte für einen Tag, der mit Klang beginnt — und mit Stille darunter.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="pillar-cta">
+    <div class="container-content">
+      <h2>Wenn dieser Weg dich ruft</h2>
+      <p>Die <a href="https://handpan.schule" rel="noopener">Handpan Schule des Lebens</a> ist mein Zuhause als Lehrer. Dort findest du Programme, Mentoring und eine Community von Menschen, die genau diesen Weg gehen wollen — meditativ, eigenständig, jenseits von Patterns.</p>
+      <div class="pillar-cta-actions">
+        <a class="btn btn-primary" href="https://handpan.schule" rel="noopener">Schule entdecken</a>
+        <a class="btn btn-ghost" href="/artikel/">Erst weiterlesen</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-pillar">
+    <aside class="author-bio">
+      <div class="author-bio-image">
+        <img src="Bilder/nils-portrait.jpg" alt="Porträt Nils Caspar" width="96" height="96">
+      </div>
+      <div class="author-bio-text">
+        <p class="eyebrow">Über den Autor</p>
+        <h3>Nils Caspar</h3>
+        <p>Handpan-Lehrer, Musiker, Gründer der <a href="https://handpan.schule" rel="noopener">Handpan Schule des Lebens</a>. Unterrichtet seit über acht Jahren Menschen darin, das Instrument als meditative Praxis zu begreifen — in München und online.</p>
+      </div>
+    </aside>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer-grid">
+        <div class="site-footer-block">
+          <h4>Hand &amp; Mindful</h4>
+          <p>Ein Ort über Handpan und Achtsamkeit. Geschrieben von Nils Caspar.</p>
+          <p><a href="https://handpan.schule" rel="noopener">Handpan Schule des Lebens →</a></p>
+        </div>
+        <div class="site-footer-block">
+          <h4>Lesen</h4>
+          <ul>
+            <li><a href="/">Achtsamkeit</a></li>
+            <li><a href="/lernen/">Lernweg</a></li>
+            <li><a href="/muenchen-online/">München &amp; Online</a></li>
+            <li><a href="/artikel/">Alle Artikel</a></li>
+          </ul>
+        </div>
+        <div class="site-footer-block">
+          <h4>Rechtliches</h4>
+          <ul>
+            <li><a href="/impressum.html">Impressum</a></li>
+            <li><a href="/datenschutz.html">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="site-footer-bottom">
+        © 2026 Nils Caspar. Hand &amp; Mindful.
+      </div>
+    </div>
+  </footer>
+</main>
+
+<!-- ============================================================
+     GATEWAY OVERLAY (artistic intro on homepage only)
+     ============================================================ -->
+<div id="gateway" role="dialog" aria-modal="true" aria-label="Willkommen">
+
   <div class="gw-bg"></div>
-
-  <!-- Central glow halo -->
   <div class="gw-halo"></div>
-
-  <!-- Floating particles (filled by JS) -->
   <div class="gw-particles" id="gwParticles"></div>
 
-  <!-- Main content -->
   <div class="gw-content">
 
-    <!-- Top eyebrow -->
-    <p class="gw-eyebrow" aria-hidden="true">HAND &amp; MINDFUL &nbsp;·&nbsp; RETREAT 2026</p>
+    <p class="gw-eyebrow" aria-hidden="true">HAND &amp; MINDFUL &nbsp;·&nbsp; HANDPAN &amp; ACHTSAMKEIT</p>
 
-    <!-- Rings + Button -->
     <div class="gw-rings-wrap" id="gwRingsWrap">
 
-      <!-- SVG Rings -->
       <svg class="gw-svg rg-glow" viewBox="-200 -200 400 400"
-           xmlns="http://www.w3.org/2000/svg"
-           aria-hidden="true" focusable="false">
+           xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
         <defs>
-          <!-- Inner center glow -->
           <radialGradient id="rg-center" cx="50%" cy="50%" r="50%">
             <stop offset="0%"   stop-color="#FEFCFF" stop-opacity="0.18"/>
             <stop offset="40%"  stop-color="#E8D5A0" stop-opacity="0.10"/>
             <stop offset="100%" stop-color="#B8943E" stop-opacity="0"/>
           </radialGradient>
-          <!-- Inner fill -->
           <radialGradient id="rg-inner" cx="50%" cy="50%" r="50%">
             <stop offset="0%"   stop-color="#E8D5A0" stop-opacity="0.12"/>
             <stop offset="70%"  stop-color="#B8943E" stop-opacity="0.04"/>
             <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
           </radialGradient>
-          <!-- Outer ambient glow (behind all rings) -->
           <radialGradient id="rg-ambient" cx="50%" cy="50%" r="50%">
             <stop offset="0%"   stop-color="#B8943E" stop-opacity="0.08"/>
             <stop offset="55%"  stop-color="#9B7EB5" stop-opacity="0.04"/>
             <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
           </radialGradient>
-          <!-- Tone field fill -->
           <radialGradient id="rg-tf" cx="50%" cy="50%" r="50%">
             <stop offset="0%"   stop-color="#E8D5A0" stop-opacity="0.18"/>
             <stop offset="55%"  stop-color="#B8943E" stop-opacity="0.07"/>
@@ -437,67 +547,47 @@ body { background: #1E1228; }
           </radialGradient>
         </defs>
 
-        <!-- Ambient glow disk (static, behind everything) -->
         <circle r="195" fill="url(#rg-ambient)"/>
-
-        <!-- Soft innermost core -->
         <circle r="22" fill="url(#rg-center)"/>
-
-        <!-- Base circle with inner fill + gold stroke -->
         <circle r="38" fill="url(#rg-inner)" stroke="#B8943E" stroke-width="1"/>
 
-        <!-- Ring 1 — gold-light, thin, fast CW -->
         <g class="ring-group rg-1">
           <circle r="62" fill="none" stroke="#D4AF5A" stroke-width="0.7"/>
-          <!-- 4 tiny cardinal dots -->
           <circle cx=" 62" cy="  0" r="1.4" fill="#D4AF5A" opacity="0.6"/>
           <circle cx="-62" cy="  0" r="1.4" fill="#D4AF5A" opacity="0.6"/>
           <circle cx="  0" cy=" 62" r="1.4" fill="#D4AF5A" opacity="0.6"/>
           <circle cx="  0" cy="-62" r="1.4" fill="#D4AF5A" opacity="0.6"/>
         </g>
 
-        <!-- Ring 2 — lavender, very thin, CCW -->
         <g class="ring-group rg-2">
           <circle r="86" fill="none" stroke="#9B7EB5" stroke-width="0.5" stroke-opacity="0.75"/>
         </g>
 
-        <!-- Ring 3 — gold shimmer, medium, slow CW + 8 tick marks -->
         <g class="ring-group rg-3">
           <circle r="110" fill="none" stroke="#E8D5A0" stroke-width="0.8"/>
-          <!-- Tick marks at 8 compass points -->
           <line x1="104" y1="0"  x2="110" y2="0"  stroke="#E8D5A0" stroke-width="1" stroke-linecap="round"/>
-          <line x1="-104" y1="0"  x2="-110" y2="0"  stroke="#E8D5A0" stroke-width="1" stroke-linecap="round"/>
-          <line x1="0"  y1="104" x2="0"  y2="110" stroke="#E8D5A0" stroke-width="1" stroke-linecap="round"/>
-          <line x1="0"  y1="-104" x2="0"  y2="-110" stroke="#E8D5A0" stroke-width="1" stroke-linecap="round"/>
+          <line x1="-104" y1="0" x2="-110" y2="0" stroke="#E8D5A0" stroke-width="1" stroke-linecap="round"/>
+          <line x1="0" y1="104"  x2="0" y2="110"  stroke="#E8D5A0" stroke-width="1" stroke-linecap="round"/>
+          <line x1="0" y1="-104" x2="0" y2="-110" stroke="#E8D5A0" stroke-width="1" stroke-linecap="round"/>
           <line x1=" 73.5" y1=" 73.5" x2=" 77.8" y2=" 77.8" stroke="#E8D5A0" stroke-width="0.7" stroke-linecap="round"/>
           <line x1="-73.5" y1=" 73.5" x2="-77.8" y2=" 77.8" stroke="#E8D5A0" stroke-width="0.7" stroke-linecap="round"/>
           <line x1=" 73.5" y1="-73.5" x2=" 77.8" y2="-77.8" stroke="#E8D5A0" stroke-width="0.7" stroke-linecap="round"/>
           <line x1="-73.5" y1="-73.5" x2="-77.8" y2="-77.8" stroke="#E8D5A0" stroke-width="0.7" stroke-linecap="round"/>
         </g>
 
-        <!-- Ring 4 — gold-deep, medium CCW -->
         <g class="ring-group rg-4">
           <circle r="134" fill="none" stroke="#B8943E" stroke-width="0.65" stroke-opacity="0.8"/>
         </g>
 
-        <!-- Ring 5 — lavender-mid, thin CW -->
         <g class="ring-group rg-5">
           <circle r="158" fill="none" stroke="#C9A8D8" stroke-width="0.5" stroke-opacity="0.6"/>
         </g>
 
-        <!-- Ring 6 — outermost, dashed gold, fast CCW -->
         <g class="ring-group rg-6">
-          <circle r="178"
-                  fill="none"
-                  stroke="#B8943E"
-                  stroke-width="0.5"
-                  stroke-opacity="0.45"
-                  stroke-dasharray="4 14"
-                  stroke-dashoffset="0"/>
+          <circle r="178" fill="none" stroke="#B8943E" stroke-width="0.5" stroke-opacity="0.45" stroke-dasharray="4 14" stroke-dashoffset="0"/>
         </g>
 
-        <!-- Tone fields — static, equal outer-edge spacing -->
-        <!-- [angle, rx, ry, r]: largest at bottom (90°=root), decreasing alternating up -->
+        <!-- Tone fields (decorative, static) -->
         <g transform="rotate(90)"><ellipse cx="114" cy="0" rx="42"   ry="22"   fill="url(#rg-tf)" stroke="#D4AF5A" stroke-width="0.65" stroke-opacity="0.65"/><ellipse cx="114" cy="0" rx="22.26" ry="11.66" fill="none" stroke="#E8D5A0" stroke-width="0.4" stroke-opacity="0.35"/></g>
         <g transform="rotate(39.2)"><ellipse cx="112" cy="0" rx="38.5" ry="20"   fill="url(#rg-tf)" stroke="#D4AF5A" stroke-width="0.65" stroke-opacity="0.65"/><ellipse cx="112" cy="0" rx="20.4"  ry="10.6"  fill="none" stroke="#E8D5A0" stroke-width="0.4" stroke-opacity="0.35"/></g>
         <g transform="rotate(139.8)"><ellipse cx="115" cy="0" rx="35"   ry="18.5" fill="url(#rg-tf)" stroke="#D4AF5A" stroke-width="0.65" stroke-opacity="0.65"/><ellipse cx="115" cy="0" rx="18.55" ry="9.8"  fill="none" stroke="#E8D5A0" stroke-width="0.4" stroke-opacity="0.35"/></g>
@@ -509,16 +599,14 @@ body { background: #1E1228; }
 
       </svg>
 
-      <!-- Enter Button (centered over SVG) -->
       <div class="gw-btn-wrap">
-        <button class="gw-btn" id="enterBtn" onclick="openGateway()" aria-label="Retreat betreten">
+        <button class="gw-btn" id="enterBtn" onclick="openGateway()" aria-label="Eintreten">
           <span class="gw-btn-label">Eintreten</span>
         </button>
       </div>
 
     </div><!-- /gw-rings-wrap -->
 
-    <!-- Bottom hint -->
     <p class="gw-hint" aria-hidden="true">· KLICKE UM EINZUTRETEN ·</p>
 
   </div><!-- /gw-content -->
@@ -567,21 +655,20 @@ function startMusic() {
   if (musicStarted) return;
   musicStarted = true;
   music.volume = 0;
-  music.play().catch(() => { /* Datei fehlt — kein Fehler im UI */ });
+  music.play().catch(() => {});
   let v = 0;
   const ti = setInterval(() => {
     v = Math.min(v + 0.025, 0.6);
     music.volume = v;
     if (v >= 0.6) clearInterval(ti);
-  }, 50); // ca. 1.2s fade-in
+  }, 50);
 }
 
-// Music toggle
 const toggle = document.getElementById('musicToggle');
 const eingangSound = document.getElementById('eingangSound');
 toggle.addEventListener('click', () => {
-  const isMuted = !music.paused || (eingangSound && !eingangSound.paused);
-  if (isMuted) {
+  const isPlaying = !music.paused || (eingangSound && !eingangSound.paused);
+  if (isPlaying) {
     music.pause();
     if (eingangSound) eingangSound.pause();
     toggle.classList.add('muted');
@@ -607,31 +694,21 @@ function openGateway() {
 
   const wrap    = document.getElementById('gwRingsWrap');
   const gateway = document.getElementById('gateway');
-  const frame   = document.getElementById('retreatFrame');
   const btn     = document.getElementById('enterBtn');
 
   btn.disabled = true;
-
-  // — Phase 1 (0ms): Inner pulse + brightness surge —
   wrap.classList.add('opening');
-  // Force reflow so transition fires cleanly
   void wrap.offsetWidth;
   wrap.classList.add('pulse');
-
-  // Start music immediately on interaction
   startMusic();
 
-  // — Phase 2 (350ms): Expand rings outward + fade —
   setTimeout(() => {
     wrap.classList.remove('pulse');
     void wrap.offsetWidth;
     wrap.classList.add('expand');
   }, 350);
 
-  // — Phase 3 (700ms): Reveal retreat page —
   setTimeout(() => {
-    frame.classList.add('visible');
-    // Fade gateway background
     gateway.querySelector('.gw-bg').style.opacity    = '0';
     gateway.querySelector('.gw-halo').style.opacity  = '0';
     gateway.querySelector('.gw-particles').style.opacity = '0';
@@ -639,38 +716,23 @@ function openGateway() {
     gateway.querySelector('.gw-content').style.opacity = '0';
   }, 700);
 
-  // — Phase 4 (1500ms): Fade out entire gateway —
   setTimeout(() => {
     gateway.classList.add('fading');
   }, 1500);
 
-  // — Phase 5 (2300ms): Remove gateway from DOM —
   setTimeout(() => {
     gateway.style.display = 'none';
-    document.body.style.overflow = 'auto';
+    document.body.classList.remove('gateway-active');
     toggle.classList.add('visible');
-    // Allow iframe to receive scroll
-    frame.style.pointerEvents = 'auto';
   }, 2300);
 }
 
-/* Keyboard: Enter or Space to open gateway */
 document.addEventListener('keydown', (e) => {
   if (!isOpening && (e.key === 'Enter' || e.key === ' ')) {
     e.preventDefault();
     openGateway();
   }
 });
-
-/* ============================================================
-   IFRAME SCROLL — forward wheel events so retreat page scrolls
-   ============================================================ */
-document.addEventListener('wheel', (e) => {
-  if (isOpening && document.getElementById('gateway').style.display === 'none') {
-    // gateway gone — iframe handles its own scroll
-    return;
-  }
-}, { passive: true });
 </script>
 </body>
 </html>

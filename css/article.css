@@ -1,0 +1,169 @@
+/* ============================================================
+   ARTICLE — Layout for /artikel/{slug}/ pages
+   ============================================================ */
+
+.article-hero {
+  padding: var(--space-5) 0 var(--space-3);
+  text-align: center;
+  background: linear-gradient(180deg, var(--bg-deep) 0%, var(--bg-gradient-end) 100%);
+}
+
+.article-hero-eyebrow {
+  font-family: var(--sans);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
+  margin-bottom: var(--space-2);
+}
+
+.article-hero h1 {
+  font-family: var(--serif);
+  font-weight: 400;
+  font-size: clamp(2rem, 5.5vw, 3.2rem);
+  line-height: 1.2;
+  max-width: 22ch;
+  margin: 0 auto var(--space-3);
+}
+
+.article-hero h1 em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.article-meta {
+  display: inline-flex;
+  gap: var(--space-2);
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  color: var(--text-subtle);
+  margin-top: var(--space-2);
+}
+
+.article-meta span + span::before {
+  content: "·";
+  margin-right: var(--space-2);
+  color: var(--text-subtle);
+}
+
+/* Article body */
+.article-body {
+  padding: var(--space-4) 0 var(--space-5);
+}
+
+.article-body p {
+  font-family: var(--sans);
+  font-weight: 300;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: var(--space-2);
+  color: var(--text-warm);
+}
+
+.article-body .lead {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(1.15rem, 2.2vw, 1.35rem);
+  font-weight: 300;
+  line-height: 1.55;
+  color: var(--gold-light);
+  margin-bottom: var(--space-4);
+}
+
+.article-body h2 {
+  font-family: var(--serif);
+  font-size: clamp(1.5rem, 3.2vw, 1.9rem);
+  font-weight: 400;
+  margin-top: var(--space-5);
+  margin-bottom: var(--space-2);
+}
+
+.article-body h2 em {
+  font-style: italic;
+  color: var(--gold-light);
+}
+
+.article-body h3 {
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 500;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-1);
+  color: var(--gold-light);
+}
+
+.article-body ul,
+.article-body ol {
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: var(--space-3);
+}
+
+.article-body li {
+  margin-bottom: 0.6em;
+}
+
+.article-body blockquote {
+  border-left: 2px solid var(--gold-deep);
+  padding: 0.6em 0 0.6em var(--space-3);
+  margin: var(--space-4) 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.25em;
+  line-height: 1.5;
+  color: var(--gold-light);
+}
+
+.article-body a {
+  color: var(--gold-light);
+  border-bottom: 1px solid rgba(184, 148, 62, 0.3);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.article-body a:hover {
+  color: var(--gold-mid);
+  border-bottom-color: var(--gold-mid);
+}
+
+.article-body figure {
+  margin: var(--space-4) 0;
+}
+
+.article-body figcaption {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--text-subtle);
+  text-align: center;
+  margin-top: var(--space-1);
+  font-style: italic;
+}
+
+/* Related articles section */
+.related-articles {
+  padding: var(--space-5) 0;
+  border-top: 1px solid var(--line-soft);
+  margin-top: var(--space-5);
+}
+
+.related-articles h2 {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: var(--space-3);
+  color: var(--gold-light);
+}
+
+/* Article-specific drop cap (optional, for first paragraph after lead) */
+.article-body .lead + p::first-letter {
+  font-family: var(--serif);
+  font-size: 3.4em;
+  font-weight: 400;
+  float: left;
+  line-height: 1;
+  margin: 0.05em 0.1em 0 0;
+  color: var(--gold-light);
+}
