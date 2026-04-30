@@ -4,7 +4,7 @@
     <loc>https://hand-mindful.de/</loc>
     <priority>1.0</priority>
     <changefreq>monthly</changefreq>
-    <lastmod>2026-04-29</lastmod>
+    <lastmod>2026-04-30</lastmod>
   </url>
   <url>
     <loc>https://hand-mindful.de/lernen/</loc>
@@ -59,5 +59,17 @@
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
     <lastmod>2026-04-29</lastmod>
+  </url>
+  <url>
+    <loc>https://hand-mindful.de/artikel/handpan-klangmeditation/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-30</lastmod>
+  </url>
+  <url>
+    <loc>https://hand-mindful.de/artikel/handpan-yoga/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-04-30</lastmod>
   </url>
 </urlset>
