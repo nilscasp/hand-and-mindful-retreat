@@ -4,11 +4,19 @@
 
 ## Aktuell offene Auto-Draft-PRs
 
-_Routine 1.3 listet hier ihre offenen PRs. Limit: max 2 gleichzeitig — wenn 2 offen sind, pausiert die Routine, bis Nils einen reviewt (merget oder schließt)._
+| PR | Slug | Datum | Status |
+|---|---|---|---|
+| [#1 — Handpan im Freien spielen](https://github.com/nilscasp/hand-and-mindful-retreat/pull/1) | `handpan-outdoor-spielen` | 2026-05-09 | wartet auf Review |
 
 ## Zuletzt geschriebene Drafts (chronologisch)
 
-_Wird gepflegt._
+### 2026-05-09 — handpan-outdoor-spielen
+
+- **PR:** https://github.com/nilscasp/hand-and-mindful-retreat/pull/1
+- **Branch:** `auto-draft/handpan-outdoor-spielen-2026-05-09`
+- **Begründung:** Saisonale Lücke Mai–Juni 2026, kein deutschsprachiger Mindful-Outdoor-Artikel. Passt zu Nils' Themen "Klang als innere Praxis" und Retreat-Formate. Brand-Voice-Prüfung bestanden.
+- **Schemas:** Article, BreadcrumbList, FAQPage (4 Fragen), HowTo (5 Schritte)
+- **Wörter Body:** ~1270
 
 ## Reviews / Feedback an Routine 1.3
 
