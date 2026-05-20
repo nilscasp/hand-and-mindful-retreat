@@ -1,34 +1,34 @@
 # Content-Gap-Kandidaten
 
-**Letzte Aktualisierung:** 2026-05-13
+**Letzte Aktualisierung:** 2026-05-20
 
 ## Höchste Priorität (Brand-Heimspiel, niedrige Konkurrenz)
 
-- "Handpan Morgenpraxis" → `handpan-morgenpraxis-aufbauen` → Artikel existiert, Cluster-Erweiterung fehlt; SERP zeigt ausschließlich englische Lernplattformen (masterthehandpan.com, maltemartenmethod.com) — null deutsche Textkonkurrenz; sobald indexiert, sofortiges Ranking-Potenzial
-- "Handpan Abendpraxis" → `handpan-abendpraxis` → Malte Marten dominiert mit YouTube-Videos (EN), kein deutschsprachiger Textartikel; Nervensystem-Cluster; Gegenstück zu Morgenpraxis; "Nervensystem Reset" als Keyword-Variante zeigt hohe YouTube-Nachfrage
-- "Handpan im Freien spielen" → `handpan-outdoor-spielen` → Sommerpeak läuft (Mai–Juni), keine deutschsprachige Seite mit dediziertem Mindful-Outdoor-Winkel; saisonal JETZT relevant
-- "Handpan und Atemübungen" → `handpan-und-atempraxis` → verbindet Nervensystem- und Yoga-Cluster; null Konkurrenz auf Keyword-Ebene; sehr hoher Brand-Fit
-- "Handpan Lernweg" → `handpan-lernweg` → begriffliche Klammer für Anfängerfehler-, wie-lange- und ohne-Noten-Cluster; keine Seite hat diesen didaktischen Überblick auf Deutsch
+- "Handpan Morgenpraxis" → `handpan-morgenpraxis-aufbauen` → Artikel existiert (`handpan-morgenpraxis`), SERP zeigt ausschließlich englische Plattformen (maltemartenmethod.com, masterthehandpan.com); null deutsche Textkonkurrenz; sobald technisch indexiert: sofortiges Ranking-Potenzial
+- "Handpan Abendpraxis" → `handpan-abendpraxis` → SERP KW21: Malte Marten "Nervous System Reset" YouTube-Video einziger relevanter Treffer, null deutschsprachiger Textartikel; Keyword-Varianten "Nervensystem Reset Handpan" / "Handpan vor dem Schlafen" ebenfalls unbesetzt
+- "Handpan im Freien spielen" → `handpan-outdoor-spielen` → handpan-portal.de hat nur technischen "Hitze & Kälte"-Artikel; kein mindful-orientierter Outdoor-Praxis-Winkel auf Deutsch; saisonal JETZT dringend (Mai–Juni-Peak läuft)
+- "Handpan und Atemübungen" → `handpan-und-atempraxis` → null Konkurrenz auf Keyword-Ebene; verbindet Nervensystem- und Yoga-Cluster; sehr hoher Brand-Fit
+- "Handpan Lernweg" → `handpan-lernweg` → begriffliche Klammer für Anfängerfehler-, wie-lange- und ohne-Noten-Cluster; keine Seite hat diesen didaktischen Überblick auf Deutsch; Nils' Thema "Die drei Tore" passt direkt
 
 ## Mittlere Priorität (Cluster-Erweiterung)
 
-- "Handpan Klangbad" → `handpan-klangbad` → zeitgeistmeditation.de listet Events, kein edukativer Artikel; handpan-portal.de hat nur eine Klangtherapie-Überblicksseite; Gap für eigenständigen DE-Textartikel mit Retreat-Perspektive
-- "Handpan Stimmung D Kurd Anfänger" → `handpan-stimmung-d-kurd` → Long-Tail aus Stimmungen-Stub; D Kurd laut SERP die meistgesuchte Einzelstimmung; YouTube-Video "Anfänger Handpan kaufen: Ist die D-Kurd die beste Option?" zeigt Nachfrage
-- "Welche Handpan Stimmung passt zu mir" → `handpan-stimmung-finden` → Long-Tail aus Stimmungen-SERP; handpan-portal.de hat Tonleiter-Ratgeber, aber kein emotionsbasiertes "Finde deine Stimmung"-Stück
-- "Handpan D Amara" → `handpan-stimmung-d-amara` → zweithäufigste Stimmungsfrage; Stub `handpan-stimmungen` braucht Unterpages oder Cluster-Artikel
-- "Handpan Schlagtechnik Grundlagen" → `handpan-schlagtechnik` → SERP zeigt handpan-portal.de Video-Guide; Brand-Winkel: achtsame Körperwahrnehmung statt bloße Technik; handpan-portal.de #1 mit Video, kein Mindful-Textartikel
-- "Handpan Musiktherapie" → `handpan-und-musiktherapie` → cosmoshandpan.com hat Fallstudien (EN); kunstplaza.de hat Schlitztrommel-Artikel; kein deutschsprachiger, unabhängiger Handpan-Therapie-Artikel mit Tiefe
-- "Handpan Kauf unter 2000 Euro" → `handpan-kaufen-budget` → Long-Tail von Kaufen-Stub; handpanexpress, sonodrum belegen diese Variante kommerziell; mindful Kaufberatungs-Winkel fehlt
-- "Handpan Gruppenpraxis" → `handpan-gemeinschaft-spielen` → Community-Aspekt passt zu Retreat- und Workshop-Kontext; kaum Konkurrenz
+- "Handpan Klangbad" → `handpan-klangbad` → zeitgeistmeditation.de dominiert mit Event-Listings; kein edukativer, eigenständiger DE-Textartikel mit Retreat-Perspektive; 2026 zahlreiche Events als Aufhänger (UFO München, PanParadise, Sound-Sculpture)
+- "Welche Handpan Stimmung passt zu mir" → `handpan-stimmung-finden` → Long-Tail aus Stimmungen-SERP; handpan-portal.de hat Tonleiter-Ratgeber, aber kein emotionsbasiertes "Finde deine Stimmung"-Stück; caisapan.com und kirstein.de breit vertreten, mindful-Winkel fehlt vollständig
+- "Handpan D Kurd Anfänger" → `handpan-stimmung-d-kurd` → handpan-portal.de hat gleich zwei dedizierte D-Kurd-Artikel (#1 und #2 in SERP) — Cluster-Konkurrenz hoch; trotzdem: authentischer Erfahrungsbericht statt Produktratgeber als Differenzierung möglich
+- "Handpan D Amara" → `handpan-stimmung-d-amara` → zweithäufigste Stimmungsanfrage; Stub `handpan-stimmungen` braucht Unterpages oder separate Cluster-Artikel
+- "Handpan Schlagtechnik Grundlagen" → `handpan-schlagtechnik` → handpan-portal.de #1 mit Video-Guide; Brand-Winkel: achtsame Körperwahrnehmung statt reine Technik; kein Mindful-Textartikel in diesem SERP
+- "Handpan Musiktherapie" → `handpan-und-musiktherapie` → cosmoshandpan.com mit Fallstudien (EN); cosmoshandpan auch auf DE-SERP sichtbar; kein deutschsprachiger unabhängiger Artikel mit Tiefe
+- "Handpan Kauf unter 2000 Euro" → `handpan-kaufen-budget` → Long-Tail von Kaufen-Stub; handpanexpress, handpan.world belegen kommerziell; mindful Kaufberatungs-Winkel ("Was passt zu dir?") fehlt
+- "Handpan Gruppenpraxis" → `handpan-gemeinschaft-spielen` → Community-Aspekt passt zu Retreat-Kontext; kaum Konkurrenz in DE-SERPs
 - "Handpan und Stimme / Singen" → `handpan-und-stimme` → Cross-Cluster mit Yoga/Meditation; null Konkurrenz auf Deutsch
 
 ## Saisonale Opportunities (zeitkritisch)
 
 - **JETZT Mai–Jun 2026** → Handpan im Freien / Outdoor-Praxis → `handpan-outdoor-spielen` (Pflege bei Hitze, Positionierung, Sommer-Sessions) — **dringend, Saison läuft**
-- **Jun 2026** → GRIASDI Festival 18.–21. Juni → `handpan-festivals-2026` (Festival-Guide mit Mindful-Blick, Linkmagneten) — **5 Wochen bis zum Event**
-- **Jun–Jul 2026** → Sound-Sculpture Festival 9.–12. Juli → in `handpan-festivals-2026` einbetten; Arrival ab 8. Juli
+- **Jun 2026** → GRIASDI Festival 18.–21. Juni → `handpan-festivals-2026` (Festival-Guide mit Mindful-Blick, Linkmagneten) — **~4 Wochen bis zum Event**
+- **Jun–Jul 2026** → Sound-Sculpture Handpan Festival 9.–12. Juli (Anreise ab 8. Juli) → in `handpan-festivals-2026` einbetten
 - **Aug 2026** → PanParadise 10.–16. August, Schlangenbad → in `handpan-festivals-2026` einbetten
-- **Aug 2026** → Pangonia Handpan Festival, nahe Berlin → in `handpan-festivals-2026` einbetten
+- **Aug 2026** → Pandance Handpan Festival (Schönsee) → in `handpan-festivals-2026` einbetten
 - **Sep–Okt 2026** → Handpan als Herbst-/Wintergeschenk → `handpan-als-geschenk` (Kaufberatung aus Schenkenden-Perspektive)
 - **Nov 2026** → Weihnachtssaison → `handpan-als-geschenk` ausbauen / Stub `handpan-kaufen-anfaenger` finalisieren
 - **Jan 2027** → Neujahrsvorsätze, Anfänger-Boom → `handpan-lernweg` + Stub `handpan-anfaengerfehler` rechtzeitig fertigstellen (Deadline: Dezember 2026)
@@ -38,21 +38,21 @@
 | Slug | Keyword | Position (Top 30) | Top-3-Konkurrenten |
 |---|---|---|---|
 | `handpan-kaufen-anfaenger` (Stub, noindex) | Handpan kaufen Anfänger | nicht rankend | handpan-portal.de · handpanschule.de · handpan.world |
-| `handpan-stimmungen` (Stub, noindex) | Handpan Stimmungen | nicht rankend | handpan.world · handpan-portal.de · kirstein.de |
-| `handpan-workshop-muenchen` (Stub, noindex) | Handpan Workshop München | nicht rankend | handpan.world · handpan-portal.de · handpan.online |
-| `handpan-anfaengerfehler` (Stub, noindex) | Handpan Anfängerfehler | nicht rankend | handpan-portal.de · YouTube · handpan.online |
-| `handpan-ohne-noten` (voll) | Handpan ohne Noten lernen | nicht sichtbar (<10) | handpan-portal.de · gokonfetti.com · einfach-trommeln-lernen.de |
-| `handpan-klangmeditation` (voll) | Handpan Klangmeditation | nicht sichtbar (<10) | zeitgeistmeditation.de · YouTube (Malte Marten) · handpan-portal.de |
-| `handpan-yoga` (voll) | Handpan Yoga | nicht sichtbar (<10) | Spotify · YouTube · thesoundartist.com (EN) |
-| `handpan-nervensystem` (voll) | Handpan Wirkung Nervensystem | nicht sichtbar (<10) | bapst-handpan.com (EN) · topblogs.de · cosmoshandpan.com |
-| `handpan-vs-hang-tongue-drum` (voll) | Handpan vs Hang Tongue Drum | nicht sichtbar (<10) | steeltonguedrum.org (EN) · kosmosky.com (EN) · handpanshop.eu |
-| `wie-lange-handpan-lernen` (voll) | Wie lange Handpan lernen | nicht sichtbar (<10) | handpan-portal.de · handpan.online · handpan-portal.de (2×) |
-| `eigenen-klang-finden` (voll) | Handpan eigenen Klang finden | nicht sichtbar (<10) | handpan-portal.de · cmoosbrugger.at · handpanschule.de |
-| `handpan-morgenpraxis` (voll) | Handpan Morgenpraxis | nicht sichtbar (<10) | masterthehandpan.com (EN) · maltemartenmethod.com (EN) · handpandojo.com (EN) |
+| `handpan-stimmungen` (Stub, noindex) | Handpan Stimmungen | nicht rankend | handpan.world · kirstein.de · handpan-portal.de |
+| `handpan-workshop-muenchen` (Stub, noindex) | Handpan Workshop München | nicht rankend | handpan-portal.de · handpan.world · gokonfetti.com |
+| `handpan-anfaengerfehler` (Stub, noindex) | Handpan Anfängerfehler | nicht rankend | handpan-portal.de · cosmoshandpan.com (EN) · YouTube |
+| `handpan-ohne-noten` (voll) | Handpan ohne Noten lernen | nicht sichtbar (<30) | handpan-portal.de · gokonfetti.com · einfach-trommeln-lernen.de |
+| `handpan-klangmeditation` (voll) | Handpan Klangmeditation | nicht sichtbar (<30) | healing-vibes.de · handpan-portal.de · YouTube (Malte Marten) |
+| `handpan-yoga` (voll) | Handpan Yoga | nicht sichtbar (<30) | thesoundartist.com (EN) · Spotify · YouTube |
+| `handpan-nervensystem` (voll) | Handpan Wirkung Nervensystem | nicht sichtbar (<30) | valeacell.com · topblogs.de · cosmoshandpan.com |
+| `handpan-vs-hang-tongue-drum` (voll) | Handpan vs Hang Tongue Drum | nicht sichtbar (<30) | steeltonguedrum.org (EN) · handpan.world · handpanguru.com |
+| `wie-lange-handpan-lernen` (voll) | Wie lange Handpan lernen | nicht sichtbar (<30) | handpan-portal.de (2×) · handpan.online |
+| `eigenen-klang-finden` (voll) | Handpan eigenen Klang finden | nicht sichtbar (<30) | handpan-portal.de · orgapage.de · cmoosbrugger.at |
+| `handpan-morgenpraxis` (voll) | Handpan Morgenpraxis | nicht sichtbar (<30) | maltemartenmethod.com (EN) · masterthehandpan.com (EN) · handpan-portal.de |
 
-**Gesamtbefund KW 20:** hand-mindful.de erscheint in keiner der geprüften SERPs in den Top 30. Stärkste strukturelle Lücke im deutschen Markt: "Handpan Morgenpraxis" und "Handpan Abendpraxis" — ausschließlich englische Konkurrenz. Bei "Handpan Wirkung Nervensystem" und "Handpan vs Hang Tongue Drum" ebenfalls dominant englischsprachige Seiten → DE-Textartikel haben hier überproportionales Ranking-Potenzial. Stubs sind noindexiert und tragen noch nichts bei.
+**Gesamtbefund KW 21:** hand-mindful.de erscheint in keiner der geprüften SERPs in den Top 30. Gegenüber KW 20 keine Bewegung — alle Stubs bleiben noindexiert. Wichtigster Neufund: handpan.world nennt **Nils Caspar explizit als Workshop-Leiter im Münchner Showroom** — dies ist ein starkes Autorität-Signal, das die Ausarbeitung des Stubs `handpan-workshop-muenchen` priorisiert. Größte strukturelle Lücke bleibt "Handpan Morgenpraxis" / "Handpan Abendpraxis" — ausschließlich englische Konkurrenz; Malte Martens "Nervous System Reset"-Video bestätigt das Keyword-Volumen für Abendpraxis.
 
-**Neu diese Woche:** UFO Handpan Festival (Nürnberg, 1.–2. Mai — bereits vergangen). PanParadise (10.–16. Aug, Schlangenbad) und PANdala (Lebensgarten Steyerberg) als weitere Festival-Stationen für `handpan-festivals-2026` identifiziert.
+**Neu KW 21:** Pandance Handpan Festival (Schönsee) in Festival-Liste aufgenommen. handpan-portal.de dominiert mit zwei separaten D-Kurd-Artikeln das Stimmungs-SERP sehr aggressiv — dort ist Differenzierung durch Tonlage/Erfahrungswinkel nötig, kein Me-Too.
 
 ## Bereits vergebene Slugs (nicht doppelt belegen)
 
@@ -73,4 +73,4 @@
 - `/artikel/handpan-workshop-muenchen/` 🟡
 
 ---
-*Nächster Scan: KW 21 (2026-05-20). Routine: wöchentlich Mi.*
+*Nächster Scan: KW 22 (2026-05-27). Routine: wöchentlich Mi.*
