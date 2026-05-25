@@ -1,14 +1,14 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-05-18
+**Letzte Aktualisierung:** 2026-05-25
 
 > **Hinweis Datenzugriff:** handpan.schule, nilscaspar.de und YouTube sind hinter Cloudflare gesperrt (403 für direkte Fetches und Sitemap). Dieser Digest basiert auf Suchmaschinen-Index-Daten. Neu entdeckte URLs können älter als 7 Tage sein — Indexierungsverzögerung unbekannt.
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-05-11 bis 2026-05-18)
+## Aktualitäten der letzten 7 Tage (2026-05-18 bis 2026-05-25)
 
-### handpan.schule / nilscaspar.de
+### handpan.schule
 _Keine neuen Inhalte für diesen Zeitraum im Suchindex nachweisbar._
 _(Sitemap-Abruf weiterhin blockiert — kein verlässlicher Diff möglich.)_
 
@@ -20,23 +20,18 @@ _(YouTube RSS weiterhin blockiert; letztes bekanntes Video: "The Silent Green", 
 
 ## Neu entdeckt seit letztem Lauf (Datum unbekannt, nicht im Vorstand)
 
-### nilscaspar.de — neue Blog-Posts (erstmals im Index sichtbar)
-- _Datum unbekannt_ · "Vom Kontrollmodus in den Klangmodus" — Fokus auf Klang statt Körperkontrolle beim Spielen
-- _Datum unbekannt_ · "Warum es sich lohnt, beim Handpan kaufen auf Qualität zu achten"
-- _Datum unbekannt_ · "Handpan in der Stille — Ein Handpan Seminar in den Bergen"
-- _Datum unbekannt_ · "Wie du eine wirklich gute Handpan erkennst – ein Leitfaden für Einsteiger"
-- _Datum unbekannt_ · "Die drei Tore: Hände, Kopf, Herz in der Musik. Der Handpan Pfad."
-- _Datum unbekannt_ · "Handpan lernen – Eine Reise zu dir selbst"
+### nilscaspar.de — neuer Blog-Post (erstmals im Index sichtbar)
+- _Datum unbekannt_ · "Handpan lernen: Vom ersten Ton zur inneren Reise" — Slug: `handpan-lernen-vom-kopf-ins-herz`; Thema: innerer Lernweg, Übergang von kognitiver Kontrolle zu gelebtem Klangempfinden
 
 ---
 
 ## Aktive Themen (Top 5 in Nils' Output)
 
-1. **Klang als innere Praxis** — Kontrollmodus vs. Klangmodus; Handpan in der Stille; Ambient-Aufnahmen (Silent Green)
-2. **Lernweg & Musiker-Entwicklung** — Dreyfus-Modell; Die drei Tore (Hände, Kopf, Herz); "The Handpan Path Journey"
-3. **Rhythmuspraxis & Grundlagen** — "Rhythmus Fundament" (6-Wochen-Programm); tägliche Übungen
-4. **Kaufentscheidung & Instrumenten-Qualität** — Handpan kaufen, Qualitätsmerkmale für Einsteiger
-5. **Anfänger-Einstieg & persönliche Lernreise** — Handpan lernen ohne Notenkenntnisse; Workshops München/online
+1. **Innerer Lernweg** — "Vom Kopf ins Herz"; erste Töne; Handpan lernen als persönliche Reise
+2. **Klang als innere Praxis** — Kontrollmodus vs. Klangmodus; Handpan in der Stille; Ambient-Aufnahmen
+3. **Anfänger-Einstieg** — Erste Töne ohne Notenkenntnisse; Handpan lernen für Einsteiger
+4. **Kaufentscheidung & Instrumenten-Qualität** — Handpan kaufen; Qualitätsmerkmale für Einsteiger
+5. **Seminar & Retreat-Formate** — Stille-Seminare in den Bergen; "The Handpan Path Journey" (6-Monats-Programm)
 
 ---
 
@@ -58,6 +53,7 @@ _Sitemap unter https://handpan.schule/sitemap.xml nicht erreichbar (403 / Cloudf
 - https://www.nilscaspar.de/event-details/handpan-workshop-musik-neu-erleben — Workshop-Seite
 
 **Blog-Posts:**
+- https://www.nilscaspar.de/post/handpan-lernen-vom-kopf-ins-herz (Datum unbekannt — **neu seit 2026-05-25**)
 - https://www.nilscaspar.de/post/rhythmus-fundament-6-wochen (~Jan 2026)
 - https://www.nilscaspar.de/post/der-weg-zur-meisterschaft-das-dreyfus-modell-in-der-handpan-schule-des-lebens (20.01.2026)
 - https://www.nilscaspar.de/post/vom-kontrollmodus-in-den-klangmodus (Datum unbekannt)
@@ -80,7 +76,7 @@ _Channel-ID: unbekannt. Handle: @nilscaspar36 / Legacy-URL: https://www.youtube.
 ## Offene Punkte für nächste Routine-Läufe
 
 - [ ] Zugriffsweg für handpan.schule/nilscaspar.de klären (Cloudflare-Block)
-- [ ] Veröffentlichungsdaten der neu entdeckten Blog-Posts ermitteln
+- [ ] Veröffentlichungsdaten der Blog-Posts ermitteln (insb. `handpan-lernen-vom-kopf-ins-herz`)
 - [ ] YouTube Channel-ID (UC…) auflösen für RSS-Feed
 - [ ] Prüfen ob weitere Blog-Posts auf nilscaspar.de existieren
 - [ ] Korrekte Sitemap-URL bestätigen: handpan.schule/sitemap.xml oder nilscaspar.de/sitemap.xml?
