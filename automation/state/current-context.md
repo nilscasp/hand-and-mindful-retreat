@@ -1,16 +1,16 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-05-25
+**Letzte Aktualisierung:** 2026-06-01
 
-> **Hinweis Datenzugriff:** handpan.schule, nilscaspar.de und YouTube sind hinter Cloudflare gesperrt (403 für direkte Fetches und Sitemap). Dieser Digest basiert auf Suchmaschinen-Index-Daten. Neu entdeckte URLs können älter als 7 Tage sein — Indexierungsverzögerung unbekannt.
+> **Hinweis Datenzugriff:** handpan.schule und YouTube sind hinter Cloudflare gesperrt (403 für direkte Fetches, Sitemap und YouTube RSS nicht abrufbar). Dieser Digest basiert auf Suchmaschinen-Index-Daten. Indexierungsverzögerung kann mehrere Wochen betragen — Veröffentlichungsdaten sind Schätzwerte aus Suchindex-Snippets.
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-05-18 bis 2026-05-25)
+## Aktualitäten der letzten 7 Tage (2026-05-25 bis 2026-06-01)
 
 ### handpan.schule
 _Keine neuen Inhalte für diesen Zeitraum im Suchindex nachweisbar._
-_(Sitemap-Abruf weiterhin blockiert — kein verlässlicher Diff möglich.)_
+_(Sitemap weiterhin blockiert. Diff-Basis: Suchindex-Vergleich.)_
 
 ### YouTube (@nilscaspar36)
 _Keine neuen Videos für diesen Zeitraum im Suchindex nachweisbar._
@@ -18,30 +18,39 @@ _(YouTube RSS weiterhin blockiert; letztes bekanntes Video: "The Silent Green", 
 
 ---
 
-## Neu entdeckt seit letztem Lauf (Datum unbekannt, nicht im Vorstand)
+## Neu entdeckt seit letztem Lauf (2026-05-25)
 
-### nilscaspar.de — neuer Blog-Post (erstmals im Index sichtbar)
-- _Datum unbekannt_ · "Handpan lernen: Vom ersten Ton zur inneren Reise" — Slug: `handpan-lernen-vom-kopf-ins-herz`; Thema: innerer Lernweg, Übergang von kognitiver Kontrolle zu gelebtem Klangempfinden
+### handpan.schule — neu im Suchindex sichtbar
+
+- **2026-04-18** · "Handpan kaufen — Der ultimative Ratgeber für Anfänger (2026)"
+  - URL: https://handpan.schule/blog/handpan-kaufen-ratgeber/
+  - Thema: Kaufberatung für Einsteiger; Preise (800–3.000 €+), Stimmungen, seriöse Händler, 5 häufigste Kauffehler
+  - War im letzten State nicht erfasst.
+- _Datum unbekannt_ · Einsteigerkurse-Seite — https://handpan.schule/einsteigerkurse/
+  - War im letzten State nicht erfasst.
+- _Datum unbekannt_ · Impressum — https://handpan.schule/impressum/
+  - War im letzten State nicht erfasst.
 
 ---
 
 ## Aktive Themen (Top 5 in Nils' Output)
 
-1. **Innerer Lernweg** — "Vom Kopf ins Herz"; erste Töne; Handpan lernen als persönliche Reise
-2. **Klang als innere Praxis** — Kontrollmodus vs. Klangmodus; Handpan in der Stille; Ambient-Aufnahmen
-3. **Anfänger-Einstieg** — Erste Töne ohne Notenkenntnisse; Handpan lernen für Einsteiger
-4. **Kaufentscheidung & Instrumenten-Qualität** — Handpan kaufen; Qualitätsmerkmale für Einsteiger
-5. **Seminar & Retreat-Formate** — Stille-Seminare in den Bergen; "The Handpan Path Journey" (6-Monats-Programm)
+1. **Handpan kaufen / Kaufberatung** — Ratgeber-Artikel auf handpan.schule (Apr 2026); Qualitätsmerkmale; häufige Fehler beim Kauf
+2. **Einsteiger-Einstieg** — Einsteigerkurse München + online; Anfänger ohne Vorkenntnisse; sanfter strukturierter Start
+3. **Innerer Lernweg** — "Vom Kopf ins Herz"; Dreyfus-Modell; Handpan lernen als persönliche Reise
+4. **Klang als innere Praxis** — Kontrollmodus vs. Klangmodus; Stille; Ambient-Aufnahmen
+5. **Seminar & Retreat-Formate** — "The Handpan Path Journey" (6-Monats-Programm); Stille-Seminare in den Bergen
 
 ---
 
 ## Bekannter Stand der Inhalts-Quellen
 
-### handpan.schule (Sitemap-URLs)
-
-_Sitemap unter https://handpan.schule/sitemap.xml nicht erreichbar (403 / Cloudflare). Bekannte URLs via Suchindex:_
+### handpan.schule (alle bekannten URLs via Suchindex)
 
 - https://handpan.schule/en/ — Hauptseite (EN): "Handpan Schule des Lebens – Learn Handpan with Depth and Awareness"
+- https://handpan.schule/einsteigerkurse/ — Einsteigerkurse München und online (neu entdeckt 2026-06-01)
+- https://handpan.schule/impressum/ — Impressum (neu entdeckt 2026-06-01)
+- https://handpan.schule/blog/handpan-kaufen-ratgeber/ — "Handpan kaufen — Der ultimative Ratgeber für Anfänger (2026)" (2026-04-18, neu entdeckt 2026-06-01)
 
 ### nilscaspar.de (alle bekannten URLs)
 
@@ -69,14 +78,14 @@ _YouTube RSS unter https://www.youtube.com/feeds/videos.xml?channel_id=... nicht
 
 - 2025-05 · "The Silent Green | 1 hour handpan music | Nils Caspar" — https://www.youtube.com/watch?v=U_R8MSGK-rY
 
-_Channel-ID: unbekannt. Handle: @nilscaspar36 / Legacy-URL: https://www.youtube.com/user/NilsCaspar_
+_Channel-ID: weiterhin unbekannt. Handle: @nilscaspar36_
 
 ---
 
 ## Offene Punkte für nächste Routine-Läufe
 
-- [ ] Zugriffsweg für handpan.schule/nilscaspar.de klären (Cloudflare-Block)
-- [ ] Veröffentlichungsdaten der Blog-Posts ermitteln (insb. `handpan-lernen-vom-kopf-ins-herz`)
+- [ ] Zugriffsweg für handpan.schule klären (Cloudflare-Block)
+- [ ] Veröffentlichungsdaten der Blog-Posts auf nilscaspar.de ermitteln
 - [ ] YouTube Channel-ID (UC…) auflösen für RSS-Feed
-- [ ] Prüfen ob weitere Blog-Posts auf nilscaspar.de existieren
-- [ ] Korrekte Sitemap-URL bestätigen: handpan.schule/sitemap.xml oder nilscaspar.de/sitemap.xml?
+- [ ] Prüfen ob weitere Blog-Posts auf handpan.schule oder nilscaspar.de existieren
+- [ ] handpan.schule/einsteigerkurse/ und /blog/ auf weitere Artikel prüfen
