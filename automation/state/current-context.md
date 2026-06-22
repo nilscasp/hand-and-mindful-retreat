@@ -1,12 +1,12 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-06-15
+**Letzte Aktualisierung:** 2026-06-22
 
 > **Hinweis Datenzugriff:** handpan.schule und YouTube sind hinter Cloudflare gesperrt (403 für direkte Fetches). Dieser Digest basiert auf Suchmaschinen-Index-Daten. Indexierungsverzögerung kann mehrere Wochen betragen — Veröffentlichungsdaten sind Schätzwerte aus Suchindex-Snippets.
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-06-08 bis 2026-06-15)
+## Aktualitäten der letzten 7 Tage (2026-06-15 bis 2026-06-22)
 
 ### handpan.schule
 _Keine neuen Inhalte für diesen Zeitraum nachweisbar._
@@ -15,9 +15,6 @@ _(Sitemap blockiert. Suchindex zeigt dieselben 4 Seiten wie letzte Woche.)_
 ### YouTube (@nilscaspar36)
 _Keine neuen Videos für diesen Zeitraum nachweisbar._
 _(YouTube RSS blockiert; letztes bekanntes Video: "The Silent Green", Mai 2025.)_
-
-### Sonstiges
-- **2026-06-13** · Handpan-Workshop "Musik neu erleben" in München stattgefunden (bereits bekannte Event-Seite auf nilscaspar.de — kein neuer Content, aber Datum lag in der letzten Woche)
 
 ---
 
