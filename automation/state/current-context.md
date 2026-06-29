@@ -1,16 +1,16 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-06-22
+**Letzte Aktualisierung:** 2026-06-29
 
 > **Hinweis Datenzugriff:** handpan.schule und YouTube sind hinter Cloudflare gesperrt (403 für direkte Fetches). Dieser Digest basiert auf Suchmaschinen-Index-Daten. Indexierungsverzögerung kann mehrere Wochen betragen — Veröffentlichungsdaten sind Schätzwerte aus Suchindex-Snippets.
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-06-15 bis 2026-06-22)
+## Aktualitäten der letzten 7 Tage (2026-06-22 bis 2026-06-29)
 
 ### handpan.schule
 _Keine neuen Inhalte für diesen Zeitraum nachweisbar._
-_(Sitemap blockiert. Suchindex zeigt dieselben 4 Seiten wie letzte Woche.)_
+_(Sitemap blockiert. Suchindex zeigt dieselben 4 Seiten wie Vorwoche.)_
 
 ### YouTube (@nilscaspar36)
 _Keine neuen Videos für diesen Zeitraum nachweisbar._
@@ -20,7 +20,7 @@ _(YouTube RSS blockiert; letztes bekanntes Video: "The Silent Green", Mai 2025.)
 
 ## Aktive Themen (Top 5 in Nils' Output)
 
-1. **Kaufberatung Handpan** — Ratgeber auf handpan.schule (Apr 2026) + nilscaspar.de; Qualitätsmerkmale, häufige Kauffehler
+1. **Kaufberatung Handpan** — handpan.schule/blog/handpan-kaufen-ratgeber/ jetzt auf Platz 3 für "Handpan kaufen Anfänger" (aufgestiegen von #4, Stand KW26)
 2. **Innere Haltung / Loslassen** — Erwartungen loslassen; Vertrauen; persönliche Entfaltung
 3. **Kulturvergleich als Lernanalogie** — Tee-Zeremonie (Cha-Do), Musiklehre anderer Kulturen als Spiegel zur westlichen Praxis
 4. **Klang als innere Praxis** — Kontrollmodus vs. Klangmodus; Stille; Ambient-Aufnahmen
@@ -35,15 +35,15 @@ _(YouTube RSS blockiert; letztes bekanntes Video: "The Silent Green", Mai 2025.)
 - https://handpan.schule/en/ — Hauptseite (EN): "Handpan Schule des Lebens – Learn Handpan with Depth and Awareness"
 - https://handpan.schule/einsteigerkurse/ — Einsteigerkurse München und online
 - https://handpan.schule/impressum/ — Impressum
-- https://handpan.schule/blog/handpan-kaufen-ratgeber/ — "Handpan kaufen — Der ultimative Ratgeber für Anfänger (2026)" (2026-04-18)
+- https://handpan.schule/blog/handpan-kaufen-ratgeber/ — "Handpan kaufen — Der ultimative Ratgeber für Anfänger (2026)" (2026-04-18) · Platz 3 für "Handpan kaufen Anfänger" (KW26, ↑ von #4)
 
 ### YouTube (letzte bekannte Videos — @nilscaspar36)
 
-_YouTube RSS unter https://www.youtube.com/feeds/videos.xml?channel_id=... nicht erreichbar (403). Bekannte Videos via Suchindex:_
+_YouTube RSS nicht erreichbar (403). Bekannte Videos via Suchindex:_
 
 - 2025-05 · "The Silent Green | 1 hour handpan music | Nils Caspar" — https://www.youtube.com/watch?v=U_R8MSGK-rY
 
-_Channel-ID: weiterhin unbekannt. Handles: @nilscaspar36 und /user/NilsCaspar (beide führen auf Cloudflare-Block)_
+_Channel-ID: weiterhin unbekannt. Handles @nilscaspar36 und /user/NilsCaspar führen beide auf Cloudflare-Block._
 
 ### nilscaspar.de (alle bekannten URLs)
 
