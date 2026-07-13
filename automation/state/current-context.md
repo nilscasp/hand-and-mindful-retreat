@@ -1,19 +1,19 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-07-06
+**Letzte Aktualisierung:** 2026-07-13
 
 > **Hinweis Datenzugriff:** handpan.schule und YouTube sind hinter Cloudflare gesperrt (403 für direkte Fetches). Dieser Digest basiert auf Suchmaschinen-Index-Daten. Indexierungsverzögerung kann mehrere Wochen betragen — Veröffentlichungsdaten sind Schätzwerte aus Suchindex-Snippets.
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-06-29 bis 2026-07-06)
+## Aktualitäten der letzten 7 Tage (2026-07-07 bis 2026-07-13)
 
 ### handpan.schule
-_Keine neuen Inhalte für diesen Zeitraum nachweisbar._
-_(Sitemap blockiert. Suchindex zeigt dieselben 4 Seiten wie Vorwoche.)_
+_Keine neuen Inhalte diese Woche._
+_(Sitemap blockiert. Suchindex zeigt dieselben 4 bekannten Seiten wie Vorwoche.)_
 
 ### YouTube (@nilscaspar36)
-_Keine neuen Videos für diesen Zeitraum nachweisbar._
+_Keine neuen Videos diese Woche._
 _(YouTube RSS blockiert; letztes bekanntes Video: "The Silent Green", Mai 2025.)_
 
 ---
@@ -72,7 +72,7 @@ _Channel-ID: weiterhin unbekannt. Handle @nilscaspar36 führt auf Cloudflare-Blo
 
 ## Offene Punkte für nächste Routine-Läufe
 
-- [ ] Zugriffsweg für handpan.schule Sitemap klären (Cloudflare-Block, seit mind. 2 Wochen)
+- [ ] Zugriffsweg für handpan.schule Sitemap klären (Cloudflare-Block, seit mind. 3 Wochen)
 - [ ] YouTube Channel-ID (UC…) auflösen — Handle @nilscaspar36 gibt 403
 - [ ] Veröffentlichungsdaten der Blog-Posts auf nilscaspar.de verifizieren
 - [ ] Prüfen ob weitere Blog-Posts auf handpan.schule /blog/ existieren (aktuell: 1 bekannt)
