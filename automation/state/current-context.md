@@ -1,6 +1,8 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-07-13
+**Letzte Aktualisierung:** 2026-07-16
+
+> **Domain-Wechsel (2026-07-16):** Das Projekt läuft jetzt unter **handpanpath.de** (vorher: hand-mindful.de). CNAME + alle HTML-Dateien im Repo bereits aktualisiert. Alle Routinen und State-Dateien verwenden ab sofort handpanpath.de.
 
 > **Hinweis Datenzugriff:** handpan.schule und YouTube sind hinter Cloudflare gesperrt (403 für direkte Fetches). Dieser Digest basiert auf Suchmaschinen-Index-Daten. Indexierungsverzögerung kann mehrere Wochen betragen — Veröffentlichungsdaten sind Schätzwerte aus Suchindex-Snippets.
 
@@ -72,6 +74,7 @@ _Channel-ID: weiterhin unbekannt. Handle @nilscaspar36 führt auf Cloudflare-Blo
 
 ## Offene Punkte für nächste Routine-Läufe
 
+- [ ] **handpanpath.de Indexierung prüfen** — Domain-Wechsel von hand-mindful.de; Google Search Console-Status + erste Crawls verifizieren
 - [ ] Zugriffsweg für handpan.schule Sitemap klären (Cloudflare-Block, seit mind. 3 Wochen)
 - [ ] YouTube Channel-ID (UC…) auflösen — Handle @nilscaspar36 gibt 403
 - [ ] Veröffentlichungsdaten der Blog-Posts auf nilscaspar.de verifizieren
