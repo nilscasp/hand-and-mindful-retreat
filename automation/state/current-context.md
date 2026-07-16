@@ -4,13 +4,13 @@
 
 > **Domain-Wechsel (2026-07-16):** Das Projekt läuft jetzt unter **handpanpath.de** (vorher: hand-mindful.de). CNAME + alle HTML-Dateien im Repo bereits aktualisiert. Alle Routinen und State-Dateien verwenden ab sofort handpanpath.de.
 
-> **Hinweis Datenzugriff:** handpan.schule und YouTube sind hinter Cloudflare gesperrt (403 für direkte Fetches). Dieser Digest basiert auf Suchmaschinen-Index-Daten. Indexierungsverzögerung kann mehrere Wochen betragen — Veröffentlichungsdaten sind Schätzwerte aus Suchindex-Snippets.
+> **Hinweis Datenzugriff:** handpanpath.de und YouTube sind hinter Cloudflare gesperrt (403 für direkte Fetches). Dieser Digest basiert auf Suchmaschinen-Index-Daten. Indexierungsverzögerung kann mehrere Wochen betragen — Veröffentlichungsdaten sind Schätzwerte aus Suchindex-Snippets.
 
 ---
 
 ## Aktualitäten der letzten 7 Tage (2026-07-07 bis 2026-07-13)
 
-### handpan.schule
+### handpanpath.de
 _Keine neuen Inhalte diese Woche._
 _(Sitemap blockiert. Suchindex zeigt dieselben 4 bekannten Seiten wie Vorwoche.)_
 
@@ -22,7 +22,7 @@ _(YouTube RSS blockiert; letztes bekanntes Video: "The Silent Green", Mai 2025.)
 
 ## Aktive Themen (Top 5 in Nils' Output)
 
-1. **Kaufberatung Handpan** — handpan.schule/blog/handpan-kaufen-ratgeber/ (April 2026); umfasst Preise, Stimmungen, seriöse Händler, häufige Fehler beim Kauf
+1. **Kaufberatung Handpan** — handpanpath.de/blog/handpan-kaufen-ratgeber/ (April 2026); umfasst Preise, Stimmungen, seriöse Händler, häufige Fehler beim Kauf
 2. **Innere Haltung / Loslassen** — Erwartungen loslassen; Vertrauen; persönliche Entfaltung
 3. **Kulturvergleich als Lernanalogie** — Tee-Zeremonie (Cha-Do), Musiklehre anderer Kulturen als Spiegel zur westlichen Praxis
 4. **Klang als innere Praxis** — Kontrollmodus vs. Klangmodus; Stille; Ambient-Aufnahmen
@@ -32,12 +32,12 @@ _(YouTube RSS blockiert; letztes bekanntes Video: "The Silent Green", Mai 2025.)
 
 ## Bekannter Stand der Inhalts-Quellen
 
-### handpan.schule (Sitemap-URLs)
+### handpanpath.de (Sitemap-URLs)
 
-- https://handpan.schule/en/ — Hauptseite (EN): "Handpan Schule des Lebens – Learn Handpan with Depth and Awareness"
-- https://handpan.schule/einsteigerkurse/ — Einsteigerkurse München und online
-- https://handpan.schule/impressum/ — Impressum
-- https://handpan.schule/blog/handpan-kaufen-ratgeber/ — "Handpan kaufen — Der ultimative Ratgeber für Anfänger (2026)" (2026-04-18)
+- https://handpanpath.de/en/ — Hauptseite (EN): "Handpan Schule des Lebens – Learn Handpan with Depth and Awareness"
+- https://handpanpath.de/einsteigerkurse/ — Einsteigerkurse München und online
+- https://handpanpath.de/impressum/ — Impressum
+- https://handpanpath.de/blog/handpan-kaufen-ratgeber/ — "Handpan kaufen — Der ultimative Ratgeber für Anfänger (2026)" (2026-04-18)
 
 ### YouTube (letzte bekannte Videos — @nilscaspar36)
 
@@ -75,7 +75,7 @@ _Channel-ID: weiterhin unbekannt. Handle @nilscaspar36 führt auf Cloudflare-Blo
 ## Offene Punkte für nächste Routine-Läufe
 
 - [ ] **handpanpath.de Indexierung prüfen** — Domain-Wechsel von hand-mindful.de; Google Search Console-Status + erste Crawls verifizieren
-- [ ] Zugriffsweg für handpan.schule Sitemap klären (Cloudflare-Block, seit mind. 3 Wochen)
+- [ ] Zugriffsweg für handpanpath.de Sitemap klären (Cloudflare-Block, seit mind. 3 Wochen)
 - [ ] YouTube Channel-ID (UC…) auflösen — Handle @nilscaspar36 gibt 403
 - [ ] Veröffentlichungsdaten der Blog-Posts auf nilscaspar.de verifizieren
-- [ ] Prüfen ob weitere Blog-Posts auf handpan.schule /blog/ existieren (aktuell: 1 bekannt)
+- [ ] Prüfen ob weitere Blog-Posts auf handpanpath.de /blog/ existieren (aktuell: 1 bekannt)

@@ -13,7 +13,7 @@ Zentraler Speicher für die selbstlaufende Content-Pipeline. Nicht händisch edi
 
 ## Routinen-Übersicht
 
-- **1.1 — Aktivitäts-Digest** (jeden Montag) — pulls handpan.schule Sitemap-Diff + YouTube RSS, pflegt current-context.md
+- **1.1 — Aktivitäts-Digest** (jeden Montag) — pulls handpanpath.de Sitemap-Diff + YouTube RSS, pflegt current-context.md
 - **1.2 — Content-Gap-Scan** (jeden Mittwoch) — WebSearch-basiert, prüft Rankings, pflegt gap-candidates.md
 - **1.3 — Draft-Produktion** (1. jedes Monats) — kombiniert Context + Gaps, schreibt Artikel-Draft, öffnet GitHub PR
 - **1.4 — SEO-Performance** (einmalig 27. Mai 2026, danach monatlich) — Rankings + Indexierung, pflegt performance-log.md
