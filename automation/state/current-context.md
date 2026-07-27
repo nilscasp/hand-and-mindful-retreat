@@ -1,6 +1,6 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-07-20
+**Letzte Aktualisierung:** 2026-07-27
 
 > **Domänen-Klärung (2026-07-20):** Die Routine zielt auf **handpan.schule** (Schul-/Kursseite). Daneben existiert **handpanpath.de** (ehem. hand-mindful.de, Retreat-/Projektseite) und **nilscaspar.de** (persönliche Site mit Blog). Die vorigen State-Einträge haben handpanpath.de und handpan.schule verwechselt — ab sofort getrennt geführt.
 
@@ -8,12 +8,12 @@
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-07-14 bis 2026-07-20)
+## Aktualitäten der letzten 7 Tage (2026-07-21 bis 2026-07-27)
+
+_Keine neuen Inhalte diese Woche._
 
 ### handpan.schule
-- **neu entdeckt** · `/programm/` — "Programm · Handpan-Wege vom ersten Klang bis zur Meisterschaft"
-  - Kursübersicht: Rhythmus Fundament (6 Wochen, hybrid), The Handpan Path (6 Monate, 36 Sessions), Einsteigerkurse, Mentoring
-  - Exaktes Erscheinungsdatum unbekannt; war im State vom 2026-07-16 noch nicht erfasst
+_Keine neuen URLs im Suchindex seit letzter Woche._
 
 ### YouTube (@nilscaspar36)
 _Keine neuen Videos diese Woche._
@@ -23,7 +23,7 @@ _(YouTube RSS blockiert; letztes bekanntes Video: "The Silent Green", Mai 2025.)
 
 ## Aktive Themen (Top 5 in Nils' Output)
 
-1. **Programm-Übersicht / Kursportfolio** — neue /programm/ Seite zeigt Vollsortiment: Rhythmus Fundament, The Handpan Path, Einsteigerkurse, Mentoring
+1. **Programm-Übersicht / Kursportfolio** — /programm/ zeigt Vollsortiment: Rhythmus Fundament, The Handpan Path, Einsteigerkurse, Mentoring
 2. **Kaufberatung Handpan** — /blog/handpan-kaufen-ratgeber/ aktiv (April 2026); Preise, Stimmungen, seriöse Händler
 3. **Einsteiger-Einstieg** — Einsteigerkurse München + online; kein Vorwissen nötig
 4. **Innere Praxis / Persönliche Entfaltung** — "Schule des Lebens"-Konzept; Musik als Spiegel der Seele; Kontrollmodus vs. Klangmodus
@@ -80,7 +80,7 @@ _Separate Domain, nicht identisch mit handpan.schule. Cloudflare-blockiert für 
 
 ## Offene Punkte für nächste Routine-Läufe
 
-- [ ] **handpan.schule/programm/ Erscheinungsdatum klären** — Seite neu entdeckt; wann wurde sie veröffentlicht?
+- [ ] **handpan.schule/programm/ Erscheinungsdatum klären** — Seite neu entdeckt ~07-2026; exaktes Datum unbekannt
 - [ ] YouTube Channel-ID verifizieren: UC555xRK4Lr3Q9lE1RcuB-Yw — RSS-Fetch weiterhin blockiert (403)
 - [ ] Zugriffsweg für handpan.schule Sitemap klären (Cloudflare-Block)
 - [ ] handpanpath.de Indexierungsstand prüfen (Domain-Wechsel von hand-mindful.de; 2026-07-16)
