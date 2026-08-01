@@ -1,10 +1,18 @@
 # Draft-Queue
 
-**Letzte Aktualisierung:** 2026-07-01
+**Letzte Aktualisierung:** 2026-08-01
 
 ## Pause
 
-**Pause am 2026-07-01: 2 offene PRs warten auf Review.**
+**Pause am 2026-08-01: 2 offene Auto-Draft-PRs warten auf Review.**
+Neue Draft-Produktion pausiert bis mindestens ein Auto-Draft-PR gemergt oder geschlossen wurde.
+Offene PRs: [#1 — Handpan im Freien spielen](https://github.com/nilscasp/hand-and-mindful-retreat/pull/1) · [#3 — Handpan Abendpraxis](https://github.com/nilscasp/hand-and-mindful-retreat/pull/3)
+
+> **Hinweis (2026-08-01):** PR #1 (handpan-outdoor-spielen) ist zeitkritisch — Sommer-Peak aktiv, Schreibfenster schließt Ende August. Review empfohlen.
+
+---
+
+**Pause am 2026-07-01: 2 offene PRs warten auf Review (historisch).**
 Neue Draft-Produktion pausiert bis mindestens ein Auto-Draft-PR gemergt oder geschlossen wurde.
 Offene PRs: [#1 — Handpan im Freien spielen](https://github.com/nilscasp/hand-and-mindful-retreat/pull/1) · [#3 — Handpan Abendpraxis](https://github.com/nilscasp/hand-and-mindful-retreat/pull/3)
 
