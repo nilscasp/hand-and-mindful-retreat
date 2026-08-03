@@ -1,6 +1,6 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-07-27
+**Letzte Aktualisierung:** 2026-08-03
 
 > **Domänen-Klärung (2026-07-20):** Die Routine zielt auf **handpan.schule** (Schul-/Kursseite). Daneben existiert **handpanpath.de** (ehem. hand-mindful.de, Retreat-/Projektseite) und **nilscaspar.de** (persönliche Site mit Blog). Die vorigen State-Einträge haben handpanpath.de und handpan.schule verwechselt — ab sofort getrennt geführt.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-07-21 bis 2026-07-27)
+## Aktualitäten der letzten 7 Tage (2026-07-28 bis 2026-08-03)
 
 _Keine neuen Inhalte diese Woche._
 
@@ -16,8 +16,10 @@ _Keine neuen Inhalte diese Woche._
 _Keine neuen URLs im Suchindex seit letzter Woche._
 
 ### YouTube (@nilscaspar36)
-_Keine neuen Videos diese Woche._
-_(YouTube RSS blockiert; letztes bekanntes Video: "The Silent Green", Mai 2025.)_
+_Keine neuen Videos bestätigt._
+_(YouTube RSS blockiert 403; Channel-ID UC555xRK4Lr3Q9lE1RcuB-Yw via Suchindex bestätigt.)_
+
+**Unverifizierter Fund:** "Handpan Intensiv! Winterkurse 2025/2026 online-live" (https://www.youtube.com/watch?v=EmVeNPeZfUU) — erschien in Suchresultaten für Nils Caspar, Kanal-Zuordnung nicht prüfbar (403). Könnte anderer Anbieter sein.
 
 ---
 
@@ -43,11 +45,11 @@ _(YouTube RSS blockiert; letztes bekanntes Video: "The Silent Green", Mai 2025.)
 
 ### YouTube (letzte bekannte Videos — @nilscaspar36)
 
-_YouTube RSS nicht erreichbar (403). Bekannte Videos via Suchindex:_
+_YouTube RSS nicht erreichbar (403). Channel-ID UC555xRK4Lr3Q9lE1RcuB-Yw via Suchindex bestätigt._
 
 - 2025-05 · "The Silent Green | 1 hour handpan music | Nils Caspar" — https://www.youtube.com/watch?v=U_R8MSGK-rY
 
-_Potenzielle Channel-ID: UC555xRK4Lr3Q9lE1RcuB-Yw (aus Suchergebnis, noch nicht verifiziert via RSS)_
+_Unverifiziert: "Handpan Intensiv! Winterkurse 2025/2026 online-live" (https://www.youtube.com/watch?v=EmVeNPeZfUU) — Kanalzugehörigkeit unklar_
 
 ### nilscaspar.de (alle bekannten URLs)
 
@@ -82,6 +84,7 @@ _Separate Domain, nicht identisch mit handpan.schule. Cloudflare-blockiert für 
 
 - [ ] **handpan.schule/programm/ Erscheinungsdatum klären** — Seite neu entdeckt ~07-2026; exaktes Datum unbekannt
 - [ ] YouTube Channel-ID verifizieren: UC555xRK4Lr3Q9lE1RcuB-Yw — RSS-Fetch weiterhin blockiert (403)
+- [ ] Unverifizierten YouTube-Fund klären: "Handpan Intensiv! Winterkurse 2025/2026" (https://www.youtube.com/watch?v=EmVeNPeZfUU) — Kanalzugehörigkeit unklar
 - [ ] Zugriffsweg für handpan.schule Sitemap klären (Cloudflare-Block)
 - [ ] handpanpath.de Indexierungsstand prüfen (Domain-Wechsel von hand-mindful.de; 2026-07-16)
 - [ ] Prüfen ob weitere Blog-Posts auf handpan.schule /blog/ existieren (aktuell: 1 bekannt)
