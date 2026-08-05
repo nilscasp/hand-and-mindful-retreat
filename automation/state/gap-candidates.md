@@ -1,69 +1,69 @@
 # Content-Gap-Kandidaten
 
-**Letzte Aktualisierung:** 2026-07-29
+**Letzte Aktualisierung:** 2026-08-05
 
 ---
 
 ## Höchste Priorität (Brand-Heimspiel, niedrige Konkurrenz)
 
-- "Handpan Abendpraxis" → `handpan-abendpraxis` → **KW31: BLUE OCEAN bestätigt** — SERP zeigt ausschließlich VHS-Kursseiten und allgemeine Lern-Guides; kein einziger DE-Artikel adressiert "Abendpraxis" als bewusste Klangroutine; Pendant zum bestehenden `handpan-morgenpraxis`; sofort rankbar
-- "Handpan Klangbad Anleitung" → `handpan-klangbad` → **KW31: BLUE OCEAN bestätigt** — kein DE-Anleitungs-Artikel vorhanden; SERP zeigt Workshop-Eventlisten (handpan-verleih.de, Eventbrite), orgapage.de; kein inhaltlicher Artikel zu "selbst ein Klangbad gestalten"; Intent-Lücke stabil
-- "Handpan im Freien spielen" → `handpan-outdoor-spielen` → **KW31: falscher Intent dominiert weiterhin** — holz-heider.de #1+#2 (Spielplatz-Equipment, B2B); handpan-portal.de #3 (Hitze/Kälte-Risiken, kein Erfahrungs-Artikel); sonodrum.net #4 (Regen/Sonnenschein-Blog); **Schreibfenster aktiv bis Ende August — Sommer-Peak auf dem Höhepunkt**
-- "Handpan und Stimme" → `handpan-und-stimme` → **KW31: Intent-Lücke bestätigt** — SERP verwechselt "Stimme" (Singen/Gesang) mit "Stimmen" (Tuning); einzig hang-in-concert.de/handpan-voice/ (Workshop-Seite) und YouTube adressieren richtigen Intent; kein DE-Textartikel zu "Singen + Handpan" vorhanden
-- "Handpan Morgenpraxis" (voll, nicht rankend) → bestehender Artikel `handpan-morgenpraxis` → **KW31: Wikipedia #1, SERP bleibt inhaltsleer** — handpan-portal.de/handpan-workshops/ (#2), handpan-portal.de/shop/ (#3), handpan.world (#4), handpan.online/handpan-nachstimmen/ (#5); kein Konkurrent adressiert "Morgenpraxis" als Praxis-Artikel; Indexierung/On-Page-Optimierung des bestehenden Artikels prüfen
+- "Handpan Abendpraxis" → `handpan-abendpraxis` → **KW32: BLUE OCEAN 3. Woche stabil** — SERP zeigt ausschließlich generische Kursportale und Wikipedia; kein einziger DE-Artikel adressiert "Abendpraxis" als bewusste Klangroutine; Pendant zum bestehenden `handpan-morgenpraxis`; Schreibaufwand niedrig, da Struktur bereits vorhanden
+- "Handpan Klangbad Anleitung" → `handpan-klangbad` → **KW32: kein DE-Anleitungs-Artikel vorhanden (stabil)** — SERP zeigt handpan-portal.de/video-schlagtechnik/ #1 (off-topic), handpan-verleih.de/workshops/ #2 (event, kein Content), handpan-portal.de/blog/klangtherapie-geeignete-instrumente/ #3 (allgemein); Intent-Lücke "selbst ein Klangbad gestalten" ist strukturell offen
+- "Handpan im Freien spielen" → `handpan-outdoor-spielen` → **KW32: SERP-Fehler-Intent hält an, Sommer-Peak JETZT** — holz-heider.de #1+#2 (Spielplatz-B2B, falscher Intent), handpan-portal.de/auswirkung-von-waerme-und-kaelte/ #3 (Pflege, kein Erfahrungs-Artikel), drumsundpercussion.de #4 (Pflege-Guide); kein DE-Erfahrungsartikel zu "Handpan outdoor als Praxis"; **PanParadise Festival Aug 10–16 schließt das Schreibfenster Ende August — zeitkritisch**
+- "Handpan und Stimme" → `handpan-und-stimme` → **KW32: Intent-Lücke stabil** — SERP verwechselt "Stimme" (Gesang) mit "stimmen" (Tuning): handpan-portal.de/verstimmte-handpan-nachstimmen/ #4 (Tuning), handpan-portal.de/passende-instrumente/ #6; nur hang-in-concert.de/handpan-voice/ #2 (Workshop-Seite) und Facebook-Seite (Bert Schulze Leipzig) #1 treffen richtigen Intent; null DE-Textartikel zu "Singen + Handpan als Praxis"
 
 ---
 
 ## Mittlere Priorität (Cluster-Erweiterung)
 
-- "Handpan Lernweg" → `handpan-lernweg` → **KW31 (aus KW30-Daten): nilscaspar.de auf #4 sichtbar** — handpan-portal.de #1, handpanschule.de #2, handpan-planet.de #3; handpanpath.de mit "The Handpan Path"-Kurs weiterhin absent; /lernweg/ als Priorität für handpanpath.de
-- "Welche Handpan Stimmung passt zu mir" → `handpan-stimmung-finden` → **KW31: kirstein.de dominiert mit #1+#2** (konsistent mit KW30) — handpan-lernen-leipzig.de #3; YouTube #4; handpan-portal.de #5; handpanshop.de #6; handpan.world #7; emotionaler "Was berührt dich?"-Winkel weiterhin unbesetzt; Stub `handpan-stimmungen` als Brücken-URL nutzbar
-- "Handpan Anfängerfehler" → `handpan-anfaengerfehler` (Stub, noindex) → **KW31: handpan-portal.de vollständig dominant** — Pinterest #1 (pin zu handpan-portal.de), handpan-portal.de/handpan-lernen-fehler/ #2 ("13 Fehler"), YouTube #3; handpan.online #6; innere-Haltung-Ansatz statt Technik-Liste als Differenzierung
-- "Handpan Klangmeditation" → `handpan-klangmeditation` (voll, nicht rankend) → **KW31: zeitgeistmeditation.de NEU #1** (wie vorhergesagt: handpanfestivaldresden.wordpress.com war temporär), healing-vibes.de #2, spirit-online.de #3, musizieren24.de #4, topblogs.de #5; Artikel vorhanden — Indexierungsstatus und On-Page-Qualität prüfen
-- "Handpan Yoga" → `handpan-yoga` (voll, nicht rankend) → **KW31: null DE-Textkonkurrenz stabil** — peacetempleretreats.org (EN) #1, YouTube (Carina & Marius) #2, handpannyc.org (EN) #3+#6, YouTube #4, thesoundartist.com (EN) #5, sarazhandpans.com (EN) #7; rein EN-SERP; strukturelle Lücke für DE-Artikel hält an
-- "Handpan Gruppenpraxis" → `handpan-gemeinschaft-spielen` → **KW30-Signal hält**: handpanschule.de #1 (Homepage), ohne dedizierten Artikel; ein eigener Artikel könnte Top 3 erreichen
-- "Handpan Kauf unter 2000 Euro" → `handpan-kaufen-budget` → Long-Tail des Kaufen-Stubs; handpan.schule #3 für Haupt-Keyword ist Anker; Budget-Winkel als natürliche Vertiefung
-- "Handpan und Atemübungen" → `handpan-und-atempraxis` → SERP voraussichtlich leer; verbindet Nervensystem- und Yoga-Cluster; Sommer-/Outdoor-Atempraxis als saisonaler Einstieg
+- "Welche Handpan Stimmung passt zu mir" → `handpan-stimmung-finden` → **KW32: kirstein.de dominiert #1+#2 (4. Woche stabil)** — handpan-lernen-leipzig.de #3, YouTube #4, handpan-portal.de #5, handpanshop.de #6, handpan.world #7, caisapan.com #8; emotionaler "Was berührt dich?"-Winkel komplett unbesetzt; Stub `handpan-stimmungen` als Brücken-URL nutzbar
+- "Handpan Anfängerfehler" → `handpan-anfaengerfehler` (Stub, noindex) → **KW32: handpan-portal.de weiterhin dominant** — Pinterest/handpan-portal.de #1, handpan-portal.de/handpan-lernen-fehler/ #2 ("13 Fehler"), YouTube #3+#5+#8, handpan-portal.de #4+#6+#10, Wikipedia #7; innere-Haltung-Ansatz vs. Technik-Checkliste als Differenzierung
+- "Handpan Yoga" → `handpan-yoga` (voll, nicht rankend) → **KW32: null DE-Textkonkurrenz stabil, 2. Woche** — peacetempleretreats.org (EN) #1, YouTube #2, handpannyc.org (EN) #3+#6, YouTube #4, thesoundartist.com (EN) #5, sarazhandpans.com (EN) #7; reine EN-SERP; strukturelle Lücke bleibt
+- "Handpan Morgenpraxis" → bestehender Artikel `handpan-morgenpraxis` → **KW32: SERP vollständig umgebaut** — Wikipedia #1 (hält), handpannyc.org #2 (NEU), handpan.world/en/collections/... #3 (NEU), handpan.world/en #4, maltemartenmethod.com #5+#8, sonodrum.net #6; Artikel vorhanden aber nicht indexiert — On-Page-Optimierung und Indexierungs-Check dringend
+- "Handpan Gruppenpraxis" → `handpan-gemeinschaft-spielen` → Signal aus KW30 hält: handpanschule.de #1 (Homepage), ohne dedizierten Artikel; Gemeinschafts-/Ensemblethema unbesetzt
+- "Handpan Kauf unter 2000 Euro" → `handpan-kaufen-budget` → Long-Tail des Kaufen-Stubs; handpan.schule #3 für Haupt-Keyword ist Anker für dieses Cluster; Budget-Winkel als natürliche Vertiefung
+- "Handpan und Atemübungen" → `handpan-und-atempraxis` → SERP voraussichtlich leer; verbindet Nervensystem- und Yoga-Cluster; Sommer-Outdoor-Atempraxis als saisonaler Einstieg
 
 ---
 
 ## Saisonale Opportunities (zeitkritisch)
 
-- **DRINGEND Jul–Aug 2026** → "Handpan im Freien spielen" → `handpan-outdoor-spielen` — Sommerpeak aktiv, Schreibfenster schließt Ende August; PanParadise Festival Aug 10–16 als zusätzlicher Kontext nutzbar
-- **Aug 10–16 2026** → PanParadise Festival, Schlangenbad → `handpan-festivals-2026` auffrischen oder verlinken; nächstes großes DE-Festival; handpan-portal.de/blog/festivals-gatherings/ hat den Überblick
-- **Sep–Okt 2026** → Handpan als Geschenk-Content anlegen → `handpan-als-geschenk` — handpan-portal.de #1 (10 Ideen), handpanschule.de #2+#4; eigener Editorial-Geschenkführer würde #3 herausfordern; frühzeitig vor Nov-Peak indexieren; SERP: Redbubble #3 (Merch), handpan.world #5 (Weihnachtsaktion)
-- **Okt 10–11 2026** → Bali Handpan Festival, Ubud → `handpan-festivals-2026` als Retreat-affinen Kontext erwähnen
-- **Nov–Dez 2026** → Weihnachtssaison → `handpan-als-geschenk` ausbauen; Stub `handpan-kaufen-anfaenger` finalisieren (handpan.schule #3 hält stabil)
+- **JETZT Aug 5–16 2026** → PanParadise Festival Schlangenbad Aug 10–16 → Outdoor- und Festival-Content zeitkritisch; `handpan-outdoor-spielen` als sofortiges Thema; Festivalnähe als Kontext nutzbar
+- **DRINGEND Aug 2026** → "Handpan im Freien spielen" → `handpan-outdoor-spielen` — Sommer-Peak läuft, Schreibfenster schließt Ende August; falsche-Intent-SERP bietet Raum für ersten echten Erfahrungs-Artikel
+- **Aug 28–30 2026** → Grube Louise Workshop (Outdoor-/Festival-Verlängerung) → Kontext für Outdoor-Content und Sommerabschluss
+- **Sep–Okt 2026** → "Handpan als Geschenk" Content anlegen → `handpan-als-geschenk`; handpan-portal.de #1 (10 Ideen), handpanschule.de #2+#4, Redbubble #3, handpan.world #5+#6; Editorial-Geschenkführer würde #3 herausfordern; frühzeitig vor Nov-Peak indexieren
+- **Okt–Nov 2026** → "Handpan Weihnachtslieder" → mögliches Blue Ocean: handpanschule.de hat eine Seite, kein dedizierter Editorial-Artikel sichtbar; `handpan-weihnachtslieder` prüfen
+- **Nov–Dez 2026** → Weihnachtssaison → `handpan-als-geschenk` ausbauen; Stub `handpan-kaufen-anfaenger` finalisieren (handpan.schule #3 stabil als Eingangsseite)
 - **Deadline Dez 2026** → Neujahrsvorsätze / Anfänger-Boom Jan 2027 → `handpan-lernweg` + Stub `handpan-anfaengerfehler` finalisieren
 
 ---
 
 ## Ranking-Status der bestehenden Artikel
 
-| Slug | Keyword | Position (Top 30) | Top-3-Konkurrenten KW31 |
+| Slug | Keyword | Position (Top 30) | Top-3-Konkurrenten KW32 |
 |---|---|---|---|
-| `handpan-kaufen-anfaenger` (Stub, noindex) | Handpan kaufen Anfänger | nicht rankend — **handpan.schule /blog/ auf #3 (stabil)** | handpan-portal.de #1 · handpanschule.de #2 · **handpan.schule #3** |
-| `handpan-stimmungen` (Stub, noindex) | Handpan Stimmungen | nicht rankend | **kirstein.de #1+#2 (stabil, KW30+31)** · handpan-lernen-leipzig.de #3 |
-| `handpan-workshop-muenchen` (Stub, noindex) | Handpan Workshop München | nicht rankend | **handpan-portal.de #1 (NEU, war gokonfetti.com KW30)** · gokonfetti.com #2 · conny-cajon.com #3+#4 |
+| `handpan-kaufen-anfaenger` (Stub, noindex) | Handpan kaufen Anfänger | nicht rankend — **handpan.schule #3 (4. Woche stabil)** | handpan-portal.de #1 · handpanschule.de #2 · **handpan.schule #3** |
+| `handpan-stimmungen` (Stub, noindex) | Handpan Stimmungen | nicht rankend | kirstein.de #1+#2 (4. Woche stabil) · handpan-lernen-leipzig.de #3 |
+| `handpan-workshop-muenchen` (Stub, noindex) | Handpan Workshop München | nicht rankend | handpan-portal.de #1 · conny-cajon.com #2+#3 · handpan.world #4–6 |
 | `handpan-anfaengerfehler` (Stub, noindex) | Handpan Anfängerfehler | nicht rankend | Pinterest/handpan-portal.de #1 · handpan-portal.de #2 ("13 Fehler") · YouTube #3 |
 | `handpan-ohne-noten` (voll) | Handpan ohne Noten lernen | nicht sichtbar (<30) | gokonfetti.com #1 · kirstein.de #2 · handpan-portal.de #3 |
-| `handpan-klangmeditation` (voll) | Handpan Klangmeditation | nicht sichtbar (<30) | **zeitgeistmeditation.de #1 (NEU, wie erwartet nach Festival-Site)** · healing-vibes.de #2 · spirit-online.de #3 |
+| `handpan-klangmeditation` (voll) | Handpan Klangmeditation | nicht sichtbar (<30) | **zeitgeistmeditation.de #1 (stabil)** · healing-vibes.de #2 · spirit-online.de #3 |
 | `handpan-yoga` (voll) | Handpan Yoga | nicht sichtbar (<30) | peacetempleretreats.org (EN) #1 · YouTube #2 · handpannyc.org (EN) #3 — **null DE-Textkonkurrenz stabil** |
 | `handpan-nervensystem` (voll) | Handpan Wirkung Nervensystem | nicht sichtbar (<30) | spirit-online.de #1 (stabil) · topblogs.de #2 (stabil) · lamaisonprovencale.de #3 (stabil) |
-| `handpan-vs-hang-tongue-drum` (voll) | Handpan vs Hang Tongue Drum | nicht sichtbar (<30) | **producerhive.com #1 (NEU, war healing-sounds.com KW30)** · healing-sounds.com #2 · steeltonguedrum.org #3 · sound-sculpture.de (DE) #5 |
-| `wie-lange-handpan-lernen` (voll) | Wie lange Handpan lernen | nicht sichtbar (<30) | handpan-portal.de #1+#2+#3 (dominiert weiterhin) |
-| `eigenen-klang-finden` (voll) | Handpan eigenen Klang finden | nicht sichtbar (<30) | **handpanzauber.de #1 (stabil)** · handpanschule.de #2+#3 · handpan-portal.de #4 |
-| `handpan-morgenpraxis` (voll) | Handpan Morgenpraxis | nicht sichtbar (<30) | **Wikipedia #1 (stabil)** · handpan-portal.de/workshops/ #2 · handpan-portal.de/shop/ #3 — SERP vollständig inhaltsleer |
+| `handpan-vs-hang-tongue-drum` (voll) | Handpan vs Hang Tongue Drum | nicht sichtbar (<30) | producerhive.com #1 · steeltonguedrum.org #2 · **puresmusic.com #3 (NEU)** · sound-sculpture.de (DE) #6 |
+| `wie-lange-handpan-lernen` (voll) | Wie lange Handpan lernen | nicht sichtbar (<30) | handpan-portal.de #1+#2+#3 (dominiert vollständig) |
+| `eigenen-klang-finden` (voll) | Handpan eigenen Klang finden | nicht sichtbar (<30) | handpanzauber.de #1 (stabil) · **handpan-muenster.de #2 (NEU)** · handpanschule.de #3 |
+| `handpan-morgenpraxis` (voll) | Handpan Morgenpraxis | nicht sichtbar (<30) | Wikipedia #1 · **handpannyc.org #2 (NEU)** · **handpan.world #3 (NEU)** — SERP-Besetzung komplett gewechselt |
 
-**Gesamtbefund KW31 (2026-07-29):** hand-mindful.de/handpanpath.de weiterhin ohne indexierte Präsenz in keiner der geprüften SERPs. handpan.schule hält #3 für "Handpan kaufen Anfänger" (dritte Woche in Folge stabil). Keiner der 8 vollen Artikel rankt in Top 30.
+**Gesamtbefund KW32 (2026-08-05):** hand-mindful.de/handpanpath.de weiterhin ohne indexierte Präsenz in keiner der 12 geprüften SERPs. handpan.schule hält #3 für "Handpan kaufen Anfänger" (4. Woche in Folge stabil). Keiner der 8 vollen Artikel rankt in Top 30.
 
-**SERP-Verschiebungen KW31 vs. KW30:**
-1. **handpan-portal.de neu #1 für "Handpan Workshop München"** (war gokonfetti.com KW30) — SERP bleibt dynamisch
-2. **zeitgeistmeditation.de neu #1 für "Handpan Klangmeditation"** (wie erwartet: handpanfestivaldresden.wordpress.com war temporär) — stabil-mäßige Besetzung durch Event-/Kurs-Sites
-3. **producerhive.com neu #1 für "Handpan vs Hang Tongue Drum"** (war healing-sounds.com KW30) — SERP sehr fluid, keine DE-Seite in Sicht
-4. **handpan-portal.de/handpan-workshops/ #2 für "Handpan Morgenpraxis"** — Wikipedia bleibt #1; SERP bleibt ohne thematisch relevante Konkurrenz
+**SERP-Verschiebungen KW32 vs. KW31:**
+1. **handpan-muenster.de neu #2 für "eigenen Klang finden"** (war handpanschule.de KW31) — leichte Fluktuation im mittleren Feld
+2. **puresmusic.com neu #3 für "Handpan vs Hang Tongue Drum"** (war healing-sounds.com/steeltonguedrum.org KW31) — SERP weiterhin fluid, keine DE-Seite in Top 3
+3. **"Handpan Morgenpraxis": SERP vollständig umgebaut** — handpannyc.org (EN) neu #2, handpan.world neu #3; handpan-portal.de/workshops/ und handpan-portal.de/shop/ nicht mehr sichtbar; Inhaltslücke bleibt, Signale für bestehenden Artikel fehlen weiterhin
+4. **conny-cajon.com stabilisiert #2+#3 für "Handpan Workshop München"** — handpan-portal.de bleibt #1 (2. Woche)
+5. **handpan.schule #3 für "Handpan kaufen Anfänger"** — 4. Woche in Folge bestätigt, stabilste Präsenz aller Nils-Domains
 
-**Persistierende strukturelle Lücken:** `handpan-abendpraxis` (SERP leer, BLUE OCEAN), `handpan-klangbad` (kein DE-Anleitungs-Artikel), `handpan-outdoor-spielen` (falscher Intent, Sommer-Peak aktiv), `handpan-und-stimme` (Stimme/Stimmen-Verwirrung, nur Workshop-Seiten), `handpan-yoga` (null DE-Textkonkurrenz), `handpan-morgenpraxis` (Artikel vorhanden, aber SERP-Signale fehlen — On-Page-Check erforderlich).
+**Persistierende strukturelle Lücken:** `handpan-abendpraxis` (SERP leer, BLUE OCEAN 3. Woche), `handpan-klangbad` (kein DE-Anleitungs-Artikel, stabil), `handpan-outdoor-spielen` (falscher Intent dominiert, Sommer-Peak aktiv — zeitkritisch), `handpan-und-stimme` (Stimme/stimmen-Verwirrung, nur Workshop-Seiten), `handpan-yoga` (null DE-Textkonkurrenz, 2. Woche), `handpan-morgenpraxis` (Artikel vorhanden, SERP-Signale fehlen vollständig).
 
 ---
 
@@ -86,4 +86,4 @@
 - `/artikel/handpan-workshop-muenchen/` 🟡
 
 ---
-*Nächster Scan: KW32 (2026-08-05). Routine: wöchentlich Mi.*
+*Nächster Scan: KW33 (2026-08-12). Routine: wöchentlich Mi.*
