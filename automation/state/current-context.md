@@ -1,6 +1,6 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-08-10
+**Letzte Aktualisierung:** 2026-08-17
 
 > **Domänen-Klärung (2026-07-20):** Die Routine zielt auf **handpan.schule** (Schul-/Kursseite). Daneben existiert **handpanpath.de** (ehem. hand-mindful.de, Retreat-/Projektseite) und **nilscaspar.de** (persönliche Site mit Blog). Die vorigen State-Einträge haben handpanpath.de und handpan.schule verwechselt — ab sofort getrennt geführt.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-08-04 bis 2026-08-10)
+## Aktualitäten der letzten 7 Tage (2026-08-11 bis 2026-08-17)
 
 _Keine neuen Inhalte diese Woche._
 
