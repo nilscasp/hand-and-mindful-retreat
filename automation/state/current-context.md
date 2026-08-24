@@ -1,6 +1,6 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-08-17
+**Letzte Aktualisierung:** 2026-08-24
 
 > **Domänen-Klärung (2026-07-20):** Die Routine zielt auf **handpan.schule** (Schul-/Kursseite). Daneben existiert **handpanpath.de** (ehem. hand-mindful.de, Retreat-/Projektseite) und **nilscaspar.de** (persönliche Site mit Blog). Die vorigen State-Einträge haben handpanpath.de und handpan.schule verwechselt — ab sofort getrennt geführt.
 
@@ -8,16 +8,16 @@
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-08-11 bis 2026-08-17)
+## Aktualitäten der letzten 7 Tage (2026-08-18 bis 2026-08-24)
 
 _Keine neuen Inhalte diese Woche._
 
 ### handpan.schule
-_Keine neuen URLs im Suchindex seit letzter Woche. Bekannte 5 URLs unverändert._
+_Kein direkter Zugriff möglich (Egress-Proxy). Bekannte 5 URLs unverändert._
 
 ### YouTube (@nilscaspar36)
-_Keine neuen Videos bestätigt._
-_(YouTube RSS und Direktzugriff blockiert; Channel-ID UC555xRK4Lr3Q9lE1RcuB-Yw via Suchindex bestätigt.)_
+_Kein direkter Zugriff möglich (Egress-Proxy). YouTube RSS weiterhin blockiert._
+_(Channel-ID UC555xRK4Lr3Q9lE1RcuB-Yw via Suchindex bestätigt.)_
 
 ---
 
