@@ -1,8 +1,16 @@
 # Draft-Queue
 
-**Letzte Aktualisierung:** 2026-08-01
+**Letzte Aktualisierung:** 2026-09-01
 
 ## Pause
+
+**Pause am 2026-09-01: 2 offene PRs warten auf Review.**
+Neue Draft-Produktion pausiert bis mindestens ein Auto-Draft-PR gemergt oder geschlossen wurde.
+Offene PRs: [#1 — Handpan im Freien spielen](https://github.com/nilscasp/hand-and-mindful-retreat/pull/1) · [#3 — Handpan Abendpraxis](https://github.com/nilscasp/hand-and-mindful-retreat/pull/3)
+
+> **Hinweis (2026-09-01):** Herbst-Saison beginnt — Artikel "Handpan Herbstpraxis" (`handpan-herbstpraxis`) steht als Top-Kandidat für den nächsten Lauf bereit (gap-candidates.md). Review der offenen PRs empfohlen.
+
+---
 
 **Pause am 2026-08-01: 2 offene Auto-Draft-PRs warten auf Review.**
 Neue Draft-Produktion pausiert bis mindestens ein Auto-Draft-PR gemergt oder geschlossen wurde.
