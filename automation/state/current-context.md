@@ -1,6 +1,6 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-09-07
+**Letzte Aktualisierung:** 2026-09-14
 
 > **Domänen-Klärung (2026-07-20):** Die Routine zielt auf **handpan.schule** (Schul-/Kursseite). Daneben existiert **handpanpath.de** (ehem. hand-mindful.de, Retreat-/Projektseite) und **nilscaspar.de** (persönliche Site mit Blog). Die vorigen State-Einträge haben handpanpath.de und handpan.schule verwechselt — ab sofort getrennt geführt.
 
@@ -8,15 +8,15 @@
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-09-01 bis 2026-09-07)
+## Aktualitäten der letzten 7 Tage (2026-09-07 bis 2026-09-14)
 
 _Keine neuen Inhalte diese Woche._
 
 ### handpan.schule
-_Kein direkter Zugriff möglich (Egress-Proxy). Bekannte 5 URLs unverändert. Suchindex zeigt keine neuen Seiten._
+_Kein direkter Zugriff möglich (Egress-Proxy). Sitemap zeigt weiterhin 5 URLs unverändert. Suchindex zeigt keine neuen Seiten._
 
 ### YouTube (@nilscaspar36)
-_Kein direkter Zugriff möglich (Egress-Proxy). Suchindex zeigt keine neuen Videos dieser Woche._
+_Kein direkter Zugriff möglich (Egress-Proxy). Suchindex zeigt keine neuen Videos von nilscaspar36 in dieser Woche._
 
 ---
 
@@ -40,13 +40,14 @@ _Kein direkter Zugriff möglich (Egress-Proxy). Suchindex zeigt keine neuen Vide
 - https://handpan.schule/blog/handpan-kaufen-ratgeber/ — "Handpan kaufen — Der ultimative Ratgeber für Anfänger (2026)" (2026-04-18)
 - https://handpan.schule/impressum/ — Impressum
 
+_Neue Entdeckung: GitHub-Repo für die Site — https://github.com/nilscasp/handpan-schule-des-lebens_
+
 ### YouTube (letzte bekannte Videos — @nilscaspar36)
 
 _YouTube RSS nicht erreichbar (Egress-blockiert). Channel-ID UC555xRK4Lr3Q9lE1RcuB-Yw via Suchindex bestätigt._
 
 - 2025-05 · "The Silent Green | 1 hour handpan music | Nils Caspar" — https://www.youtube.com/watch?v=U_R8MSGK-rY
-
-_Unverifiziert: "Handpan Intensiv! Winterkurse 2025/2026 online-live" (https://www.youtube.com/watch?v=EmVeNPeZfUU) — Kanalzugehörigkeit unklar_
+- _Wahrscheinlich nilscaspar36:_ "Handpan Intensiv! Winterkurse 2025/2026 online-live" — https://www.youtube.com/watch?v=EmVeNPeZfUU _(Suchindex zeigt dieses Video in nilscaspar36-Suchergebnissen; Kanalzugehörigkeit unbestätigt)_
 
 ### nilscaspar.de (alle bekannten URLs)
 
@@ -81,8 +82,9 @@ _Separate Domain, nicht identisch mit handpan.schule. Egress-blockiert für dire
 
 - [ ] **handpan.schule/programm/ Erscheinungsdatum klären** — Seite neu entdeckt ~07-2026; exaktes Datum unbekannt
 - [ ] YouTube Channel-ID verifizieren: UC555xRK4Lr3Q9lE1RcuB-Yw — RSS-Fetch weiterhin blockiert (Egress-Proxy)
-- [ ] Unverifizierten YouTube-Fund klären: "Handpan Intensiv! Winterkurse 2025/2026" (https://www.youtube.com/watch?v=EmVeNPeZfUU) — Kanalzugehörigkeit unklar
-- [ ] Zugriffsweg für handpan.schule Sitemap klären (Egress-Proxy-Block)
+- [ ] YouTube-Fund "Handpan Intensiv! Winterkurse 2025/2026" (https://www.youtube.com/watch?v=EmVeNPeZfUU) — Kanalzugehörigkeit unbestätigt; in Suchindex bei nilscaspar36-Suchen sichtbar
+- [ ] Zugriffsweg für handpan.schule Sitemap klären (Egress-Proxy-Block — 3. Woche ohne direkten Fetch)
 - [ ] handpanpath.de Indexierungsstand prüfen (Domain-Wechsel von hand-mindful.de; 2026-07-16)
 - [ ] Prüfen ob weitere Blog-Posts auf handpan.schule /blog/ existieren (aktuell: 1 bekannt)
 - [ ] Veröffentlichungsdaten der Blog-Posts auf nilscaspar.de verifizieren
+- [ ] GitHub-Repo https://github.com/nilscasp/handpan-schule-des-lebens auswerten (Commits, neue Seiten in Arbeit?)
