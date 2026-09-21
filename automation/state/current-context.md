@@ -1,19 +1,19 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-09-14
+**Letzte Aktualisierung:** 2026-09-21
 
 > **Domänen-Klärung (2026-07-20):** Die Routine zielt auf **handpan.schule** (Schul-/Kursseite). Daneben existiert **handpanpath.de** (ehem. hand-mindful.de, Retreat-/Projektseite) und **nilscaspar.de** (persönliche Site mit Blog). Die vorigen State-Einträge haben handpanpath.de und handpan.schule verwechselt — ab sofort getrennt geführt.
 
-> **Hinweis Datenzugriff:** handpan.schule und YouTube sind für direkte Fetches blockiert (Egress-Proxy). Dieser Digest basiert auf Suchmaschinen-Index-Daten. Indexierungsverzögerung kann mehrere Wochen betragen — Erscheinungsdaten von neuen Seiten sind Schätzwerte.
+> **Hinweis Datenzugriff:** handpan.schule und YouTube sind für direkte Fetches blockiert (Egress-Proxy). Dieser Digest basiert auf Suchmaschinen-Index-Daten sowie dem Gap-Scan vom 2026-09-16. Indexierungsverzögerung kann mehrere Wochen betragen — Erscheinungsdaten von neuen Seiten sind Schätzwerte.
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-09-07 bis 2026-09-14)
+## Aktualitäten der letzten 7 Tage (2026-09-14 bis 2026-09-21)
 
 _Keine neuen Inhalte diese Woche._
 
 ### handpan.schule
-_Kein direkter Zugriff möglich (Egress-Proxy). Sitemap zeigt weiterhin 5 URLs unverändert. Suchindex zeigt keine neuen Seiten._
+_Kein direkter Zugriff möglich (Egress-Proxy). Sitemap zeigt weiterhin 5 URLs unverändert. Gap-Scan KW38 (2026-09-16): handpan.schule/programm/ nicht mehr sichtbar für "Morgenpraxis"-Query; handpan.schule verliert für "Handpan kaufen Anfänger" (~#4 statt ~#2 KW37). Kein Hinweis auf neue Seiten._
 
 ### YouTube (@nilscaspar36)
 _Kein direkter Zugriff möglich (Egress-Proxy). Suchindex zeigt keine neuen Videos von nilscaspar36 in dieser Woche._
@@ -22,11 +22,11 @@ _Kein direkter Zugriff möglich (Egress-Proxy). Suchindex zeigt keine neuen Vide
 
 ## Aktive Themen (Top 5 in Nils' Output)
 
-1. **Programm-Übersicht / Kursportfolio** — /programm/ zeigt Vollsortiment: Rhythmus Fundament, The Handpan Path, Einsteigerkurse, Mentoring
-2. **Kaufberatung Handpan** — /blog/handpan-kaufen-ratgeber/ aktiv (April 2026); Preise, Stimmungen, seriöse Händler
-3. **Einsteiger-Einstieg** — Einsteigerkurse München + online; kein Vorwissen nötig
-4. **Innere Praxis / Persönliche Entfaltung** — "Schule des Lebens"-Konzept; Musik als Spiegel der Seele; Kontrollmodus vs. Klangmodus
-5. **Hybrid-Format** — Online + Präsenz München; monatliche Q&A-Calls, Rhythmus-Gym
+1. **Innere Praxis / Klang als Erfahrung** — Morgenpraxis, eigenen Klang finden, Klangmeditation, Yoga — roter Faden über alle handpanpath.de-Artikel
+2. **Einsteiger-Orientierung** — Wie lange lernen, Kaufen-Ratgeber (handpan.schule), Anfängerfehler-Pipeline; Jan-2027-Boom als Deadline
+3. **Körper & Nervensystem** — handpan-nervensystem, handpan-yoga, handpan-atempraxis (in Planung); Wellness-Nische belebt sich (healing-vibes.de KW38 neu auf #3)
+4. **Instrument-Grundlagen** — ohne Noten, vs Hang Tongue Drum, Stimmungen; kirstein.de übernimmt Stimmungen #1+#2 (KW38 — größte SERP-Verschiebung)
+5. **Saisonales Klang-Erleben** — Abendpraxis (Blue Ocean 9. Woche stabil), Herbstpraxis (Schreibfenster schließt sich JETZT Sep 2026), Klangbad (6. Woche)
 
 ---
 
@@ -36,18 +36,38 @@ _Kein direkter Zugriff möglich (Egress-Proxy). Suchindex zeigt keine neuen Vide
 
 - https://handpan.schule/en/ — Hauptseite (EN): "Handpan Schule des Lebens – Learn Handpan with Depth and Awareness"
 - https://handpan.schule/einsteigerkurse/ — Einsteigerkurse München und online
-- https://handpan.schule/programm/ — "Programm · Handpan-Wege vom ersten Klang bis zur Meisterschaft" _(neu seit ~07-2026)_
+- https://handpan.schule/programm/ — "Programm · Handpan-Wege vom ersten Klang bis zur Meisterschaft" _(neu seit ~07-2026; KW38 nicht mehr für Morgenpraxis-Query sichtbar)_
 - https://handpan.schule/blog/handpan-kaufen-ratgeber/ — "Handpan kaufen — Der ultimative Ratgeber für Anfänger (2026)" (2026-04-18)
 - https://handpan.schule/impressum/ — Impressum
 
-_Neue Entdeckung: GitHub-Repo für die Site — https://github.com/nilscasp/handpan-schule-des-lebens_
+_Neue Entdeckung: GitHub-Repo für die Site — https://github.com/nilscasp/handpan-schule-des-lebens (außerhalb Session-Scope, nicht direkt auswertbar)_
 
 ### YouTube (letzte bekannte Videos — @nilscaspar36)
 
-_YouTube RSS nicht erreichbar (Egress-blockiert). Channel-ID UC555xRK4Lr3Q9lE1RcuB-Yw via Suchindex bestätigt._
+_YouTube RSS nicht erreichbar (Egress-blockiert). Channel-ID UC555xRK4Lr3Q9lE1RcuB-Yw via Suchindex (unbestätigt)._
 
 - 2025-05 · "The Silent Green | 1 hour handpan music | Nils Caspar" — https://www.youtube.com/watch?v=U_R8MSGK-rY
-- _Wahrscheinlich nilscaspar36:_ "Handpan Intensiv! Winterkurse 2025/2026 online-live" — https://www.youtube.com/watch?v=EmVeNPeZfUU _(Suchindex zeigt dieses Video in nilscaspar36-Suchergebnissen; Kanalzugehörigkeit unbestätigt)_
+- _Wahrscheinlich nilscaspar36:_ "Handpan Intensiv! Winterkurse 2025/2026 online-live" — https://www.youtube.com/watch?v=EmVeNPeZfUU _(Kanalzugehörigkeit unbestätigt)_
+
+### handpanpath.de — Sitemap (12 URLs, lastmod 2026-04-29/30)
+
+**Kernseiten:**
+- https://handpanpath.de/
+- https://handpanpath.de/lernen/
+- https://handpanpath.de/muenchen-online/
+- https://handpanpath.de/artikel/
+
+**Volle Artikel:**
+- https://handpanpath.de/artikel/handpan-ohne-noten/
+- https://handpanpath.de/artikel/eigenen-klang-finden/
+- https://handpanpath.de/artikel/handpan-morgenpraxis/
+- https://handpanpath.de/artikel/handpan-nervensystem/
+- https://handpanpath.de/artikel/handpan-vs-hang-tongue-drum/
+- https://handpanpath.de/artikel/wie-lange-handpan-lernen/
+- https://handpanpath.de/artikel/handpan-klangmeditation/
+- https://handpanpath.de/artikel/handpan-yoga/
+
+_Keiner der 8 Artikel rankt in Top 30 (KW38-Stand)._
 
 ### nilscaspar.de (alle bekannten URLs)
 
@@ -74,17 +94,17 @@ _YouTube RSS nicht erreichbar (Egress-blockiert). Channel-ID UC555xRK4Lr3Q9lE1Rc
 
 ### handpanpath.de (ehem. hand-mindful.de — Retreat-/Projektseite)
 
-_Separate Domain, nicht identisch mit handpan.schule. Egress-blockiert für direkte Fetches._
+_Separate Domain, nicht identisch mit handpan.schule. Sitemap direkt lesbar aus Repo (lastmod 2026-04-29/30). Kein Ranking in allen geprüften SERPs (KW38)._
 
 ---
 
 ## Offene Punkte für nächste Routine-Läufe
 
-- [ ] **handpan.schule/programm/ Erscheinungsdatum klären** — Seite neu entdeckt ~07-2026; exaktes Datum unbekannt
+- [ ] **handpan.schule/programm/ Sichtbarkeit** — KW38: nicht mehr für Morgenpraxis-Query sichtbar; Rankings für /programm/ unklar
 - [ ] YouTube Channel-ID verifizieren: UC555xRK4Lr3Q9lE1RcuB-Yw — RSS-Fetch weiterhin blockiert (Egress-Proxy)
-- [ ] YouTube-Fund "Handpan Intensiv! Winterkurse 2025/2026" (https://www.youtube.com/watch?v=EmVeNPeZfUU) — Kanalzugehörigkeit unbestätigt; in Suchindex bei nilscaspar36-Suchen sichtbar
-- [ ] Zugriffsweg für handpan.schule Sitemap klären (Egress-Proxy-Block — 3. Woche ohne direkten Fetch)
-- [ ] handpanpath.de Indexierungsstand prüfen (Domain-Wechsel von hand-mindful.de; 2026-07-16)
+- [ ] YouTube-Fund "Handpan Intensiv! Winterkurse 2025/2026" (https://www.youtube.com/watch?v=EmVeNPeZfUU) — Kanalzugehörigkeit unbestätigt
+- [ ] Zugriffsweg für handpan.schule Sitemap klären (Egress-Proxy-Block — 4. Woche ohne direkten Fetch)
+- [ ] handpanpath.de On-Page-Signale stärken — keiner der 8 vollen Artikel rankt in Top 30 (KW38)
 - [ ] Prüfen ob weitere Blog-Posts auf handpan.schule /blog/ existieren (aktuell: 1 bekannt)
 - [ ] Veröffentlichungsdaten der Blog-Posts auf nilscaspar.de verifizieren
-- [ ] GitHub-Repo https://github.com/nilscasp/handpan-schule-des-lebens auswerten (Commits, neue Seiten in Arbeit?)
+- [ ] GitHub-Repo https://github.com/nilscasp/handpan-schule-des-lebens auswerten (außerhalb Session-Scope)
