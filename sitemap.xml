@@ -78,4 +78,10 @@
     <changefreq>monthly</changefreq>
     <lastmod>2026-05-09</lastmod>
   </url>
+  <url>
+    <loc>https://handpanpath.de/artikel/handpan-abendpraxis/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-06-01</lastmod>
+  </url>
 </urlset>
