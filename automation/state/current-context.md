@@ -1,6 +1,6 @@
 # Aktueller Kontext — Was Nils gerade tut
 
-**Letzte Aktualisierung:** 2026-09-21
+**Letzte Aktualisierung:** 2026-09-28
 
 > **Domänen-Klärung (2026-07-20):** Die Routine zielt auf **handpan.schule** (Schul-/Kursseite). Daneben existiert **handpanpath.de** (ehem. hand-mindful.de, Retreat-/Projektseite) und **nilscaspar.de** (persönliche Site mit Blog). Die vorigen State-Einträge haben handpanpath.de und handpan.schule verwechselt — ab sofort getrennt geführt.
 
@@ -8,15 +8,15 @@
 
 ---
 
-## Aktualitäten der letzten 7 Tage (2026-09-14 bis 2026-09-21)
+## Aktualitäten der letzten 7 Tage (2026-09-21 bis 2026-09-28)
 
 _Keine neuen Inhalte diese Woche._
 
 ### handpan.schule
-_Kein direkter Zugriff möglich (Egress-Proxy). Sitemap zeigt weiterhin 5 URLs unverändert. Gap-Scan KW38 (2026-09-16): handpan.schule/programm/ nicht mehr sichtbar für "Morgenpraxis"-Query; handpan.schule verliert für "Handpan kaufen Anfänger" (~#4 statt ~#2 KW37). Kein Hinweis auf neue Seiten._
+_Kein direkter Zugriff möglich (Egress-Proxy). Sitemap zeigt weiterhin 5 URLs unverändert (letzter bestätigter Stand: KW38 2026-09-16)._
 
 ### YouTube (@nilscaspar36)
-_Kein direkter Zugriff möglich (Egress-Proxy). Suchindex zeigt keine neuen Videos von nilscaspar36 in dieser Woche._
+_Kein direkter Zugriff möglich (Egress-Proxy). Keine neuen Videos von nilscaspar36 im Suchindex erkennbar._
 
 ---
 
@@ -24,9 +24,9 @@ _Kein direkter Zugriff möglich (Egress-Proxy). Suchindex zeigt keine neuen Vide
 
 1. **Innere Praxis / Klang als Erfahrung** — Morgenpraxis, eigenen Klang finden, Klangmeditation, Yoga — roter Faden über alle handpanpath.de-Artikel
 2. **Einsteiger-Orientierung** — Wie lange lernen, Kaufen-Ratgeber (handpan.schule), Anfängerfehler-Pipeline; Jan-2027-Boom als Deadline
-3. **Körper & Nervensystem** — handpan-nervensystem, handpan-yoga, handpan-atempraxis (in Planung); Wellness-Nische belebt sich (healing-vibes.de KW38 neu auf #3)
-4. **Instrument-Grundlagen** — ohne Noten, vs Hang Tongue Drum, Stimmungen; kirstein.de übernimmt Stimmungen #1+#2 (KW38 — größte SERP-Verschiebung)
-5. **Saisonales Klang-Erleben** — Abendpraxis (Blue Ocean 9. Woche stabil), Herbstpraxis (Schreibfenster schließt sich JETZT Sep 2026), Klangbad (6. Woche)
+3. **Körper & Nervensystem** — handpan-nervensystem, handpan-yoga, handpan-atempraxis (in Planung); Wellness-Nische belebt sich
+4. **Instrument-Grundlagen** — ohne Noten, vs Hang Tongue Drum, Stimmungen
+5. **Saisonales Klang-Erleben** — Abendpraxis (Blue Ocean stabil), Herbstpraxis, Klangbad
 
 ---
 
@@ -101,9 +101,9 @@ _Separate Domain, nicht identisch mit handpan.schule. Sitemap direkt lesbar aus 
 ## Offene Punkte für nächste Routine-Läufe
 
 - [ ] **handpan.schule/programm/ Sichtbarkeit** — KW38: nicht mehr für Morgenpraxis-Query sichtbar; Rankings für /programm/ unklar
-- [ ] YouTube Channel-ID verifizieren: UC555xRK4Lr3Q9lE1RcuB-Yw — RSS-Fetch weiterhin blockiert (Egress-Proxy)
+- [ ] YouTube Channel-ID verifizieren: UC555xRK4Lr3Q9lE1RcuB-Yw — RSS-Fetch weiterhin blockiert (Egress-Proxy, 5. Woche)
 - [ ] YouTube-Fund "Handpan Intensiv! Winterkurse 2025/2026" (https://www.youtube.com/watch?v=EmVeNPeZfUU) — Kanalzugehörigkeit unbestätigt
-- [ ] Zugriffsweg für handpan.schule Sitemap klären (Egress-Proxy-Block — 4. Woche ohne direkten Fetch)
+- [ ] Zugriffsweg für handpan.schule Sitemap klären (Egress-Proxy-Block — 5. Woche ohne direkten Fetch)
 - [ ] handpanpath.de On-Page-Signale stärken — keiner der 8 vollen Artikel rankt in Top 30 (KW38)
 - [ ] Prüfen ob weitere Blog-Posts auf handpan.schule /blog/ existieren (aktuell: 1 bekannt)
 - [ ] Veröffentlichungsdaten der Blog-Posts auf nilscaspar.de verifizieren
