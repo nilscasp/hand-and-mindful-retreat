@@ -84,4 +84,10 @@
     <changefreq>monthly</changefreq>
     <lastmod>2026-06-01</lastmod>
   </url>
+  <url>
+    <loc>https://handpanpath.de/artikel/handpan-herbstpraxis/</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+    <lastmod>2026-10-01</lastmod>
+  </url>
 </urlset>
