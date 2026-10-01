@@ -1,6 +1,12 @@
 # Draft-Queue
 
-**Letzte Aktualisierung:** 2026-09-01
+**Letzte Aktualisierung:** 2026-10-01
+
+## Aktueller Stand (2026-10-01)
+
+**Neuer Auto-Draft produziert.** Vorab-Prüfung ergab: nur 1 offener PR (#2, nicht auto-draft-labeled) — Produktion freigegeben. PRs #1 und #3 aus früheren Einträgen sind inzwischen geschlossen/gemergt.
+
+---
 
 ## Pause
 
@@ -28,10 +34,18 @@ Offene PRs: [#1 — Handpan im Freien spielen](https://github.com/nilscasp/hand-
 
 | PR | Slug | Datum | Status |
 |---|---|---|---|
-| [#1 — Handpan im Freien spielen](https://github.com/nilscasp/hand-and-mindful-retreat/pull/1) | `handpan-outdoor-spielen` | 2026-05-09 | wartet auf Review |
-| [#3 — Handpan Abendpraxis](https://github.com/nilscasp/hand-and-mindful-retreat/pull/3) | `handpan-abendpraxis` | 2026-06-01 | wartet auf Review |
+| [#4 — Handpan Herbstpraxis](https://github.com/nilscasp/hand-and-mindful-retreat/pull/4) | `handpan-herbstpraxis` | 2026-10-01 | wartet auf Review |
 
 ## Zuletzt geschriebene Drafts (chronologisch)
+
+### 2026-10-01 — handpan-herbstpraxis
+
+- **PR:** https://github.com/nilscasp/hand-and-mindful-retreat/pull/4
+- **Branch:** `auto-draft/handpan-herbstpraxis-2026-10-01`
+- **Begründung:** Saisonal KRITISCH: Herbst begann 22. Sep. 2026. SERP für "Handpan Herbstpraxis" quasi leer — kein DE-Erfahrungsartikel. Optimales Indexierungsfenster schließt sich Mitte Oktober. Passt zu Nils' aktivem Thema #5 "Saisonales Klang-Erleben" (current-context.md) und verbindet Innere Praxis + Körper/Nervensystem-Cluster saisonal.
+- **Schemas:** Article, BreadcrumbList, HowTo (4 Schritte), FAQPage (4 Fragen)
+- **Wörter Body:** ~1290
+- **Brand-Voice-Prüfung:** bestanden (0 Treffer)
 
 ### 2026-05-09 — handpan-outdoor-spielen
 
